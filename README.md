@@ -1,2 +1,2 @@
-# platinum-demos-dl
-IBM Platinum Demos Digital Labor documentation
+# platinum-demos
+IBM Platinum Demos documentation
