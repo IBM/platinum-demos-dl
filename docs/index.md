@@ -10,7 +10,7 @@ businessautomation-button-class: header-button-selected
 
 | **BUSINESS AUTOMATION PLATINUM DEMOS** | | 
 | :---         | :--- |
-| **[Straight-through processing](https://ibm-garage-tsa.github.io/platinum-demos/300-business-automation-straight-through-processing/demo-preparation)** | Implementing straight-through processing to transform customer service |
+| **[Straight-through processing](https://ibm.github.io/platinum-demos-dl/300-business-automation-straight-through-processing/demo-preparation)** | Implementing straight-through processing to transform customer service |
 | **[Extending business automation with RPA](https://ibm-garage-tsa.github.io/platinum-demos/300-business-automation-extending-ba-with-rpa/demo-preparation)** | Use bots and chatbots to enhance front and back-office automation |
 | **[Predictive decisioning](https://ibm.github.io/platinum-demos-dl/300-business-automation-predictive-decisioning/demo-preparation)** | Combine business rules and machine learning to make insightful real-time decisions |
 | **[Process and task mining](https://ibm-garage-tsa.github.io/platinum-demos/300-business-automation-process-and-task-mining/demo-preparation)** | Analyze process and task data to identify areas for improvement |
