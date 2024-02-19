@@ -18,7 +18,7 @@ Let’s get started.
 
 (Demo intro slides <a href="./files/Process and Task Mining Platinum Demo - Intro deck.pptx" target="_blank" rel="noreferrer">here</a>)
 
-(Printer-ready PDF of demo script <a href="./files/300-Process-and-task-mining-Demo-Script.pdf" target="_blank" rel="noreferrer">here</a>)
+(Printer-ready PDF of demo script <a href="./files/Process and Task Mining Platinum Demo - PDF script.pdf" target="_blank" rel="noreferrer">here</a>)
 
 
 **[Go to top](#top)**
