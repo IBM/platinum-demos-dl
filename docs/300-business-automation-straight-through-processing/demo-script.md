@@ -20,9 +20,9 @@ We’ll show how line-of-business subject matter experts can use low-code tools 
 
 Let’s get started.
 
-(Demo intro slides <a href="https://ibm.box.com/s/5hlcqm9b22lnmsdrgt2ucki0z37drvad" target="_blank" rel="noreferrer">here</a>)
+(Demo intro slides <a href="./files/Straight-through Processing Platinum Demo - Intro deck.pptx" target="_blank" rel="noreferrer">here</a>)
 
-(Printer-ready PDF of demo script <a href="https://ibm.box.com/s/elbk9brbw2k514ysofblnbiwe0dj4xph" target="_blank" rel="noreferrer">here</a>)
+(Printer-ready PDF of demo script <a href="./files/Straight-through Processing Platinum Demo - PDF script.pdf" target="_blank" rel="noreferrer">here</a>)
 
 
 **[Go to top](#top)**
