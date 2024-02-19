@@ -1,5 +1,5 @@
 ---
-title: Predictive decisioning <br/> 300-level live demo
+title: Predictive decisioning 300-level live demo
 layout: demoscript
 banner: images/Predictive-Decisioning-300-Script-GitHub-banner-12-15-21.jpg
 ---
