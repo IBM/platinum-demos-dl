@@ -35,7 +35,7 @@ If you are an existing watsonx Orchestrate user but you cannot see the skills ne
 
 If you are an existing watsonx Orchestrate user and still cannot see the skills used in the demo, please request access to a suitable tenant by submitting a <a href="https://ibm.biz/OrchestrateRequestEnv" target="_blank" rel="noreferrer">request here</a>. You will receive an email once you have been onboarded onto a suitable tenant, but please allow 48 hours for your request to be processed.<br/> 
 
-Users with access to multiple tenants (demo environments) should ensure they select a tenant that has the demonstration installed. Please use the <a href="https://ibm-cloud.slack.com/archives/C0216F39ACU" target="_blank" rel="noreferrer">#platinumdemos-automation-support</a> Slack channel if you require assistance. 
+Users with access to multiple tenants (demo environments) should ensure they select a tenant that has the demonstration installed. Please use the <a href="https://ibm.enterprise.slack.com/archives/C06HT5PHLN9" target="_blank" rel="noreferrer">#ba-techlcd-support</a> Slack channel if you require assistance. 
 <br/> 
 
 </details>
