@@ -442,4 +442,4 @@ In the demo script, you will be required to use the OpenAPI 3.0 YAML file to dis
 
 ***
 
-Click [here]((/platinum-demos/300-enhancing-ba-with-integration/demo-script) to go to the **Demo script** on the next tab.
+Click [here](demo-script) to go to the **Demo script** on the next tab.
