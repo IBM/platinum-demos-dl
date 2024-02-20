@@ -385,4 +385,4 @@ Follow these detailed instructions to delete the Teamspaces:
 
 ***
 
-Click [here](/300-business-automation-managing-and-securing-enterprise-content-at-scale/demo-script) to go to the **Demo script** on the next tab.
+Click [here](/300-business-automation-managing-and-securing-enterprise-content-at-scale/demo-script) to access the **Demo script** on the next tab.
