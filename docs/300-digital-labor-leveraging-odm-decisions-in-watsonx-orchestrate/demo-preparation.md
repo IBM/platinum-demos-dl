@@ -543,3 +543,5 @@ After each demo, you must remove the **New XXX FC FocusCorp Customer Service** s
 <br/><br/>
 
 </details>
+
+Click [here](demo-script) to go to the **Demo script** on the next tab.

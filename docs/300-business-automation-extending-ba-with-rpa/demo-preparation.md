@@ -225,4 +225,4 @@ Click **Save** (7).
 
 ***
 
-Click [here](/300-business-automation-extending-ba-with-rpa/demo-script) to go to the **Demo script** on the next tab.
+Click [here](demo-script) to go to the **Demo script** on the next tab.

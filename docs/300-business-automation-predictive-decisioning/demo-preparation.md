@@ -720,4 +720,4 @@ This step must be performed anytime a new version of the **SkyTalk_rentention_DS
 </details>
 ***
 
-Click [here](/300-business-automation-predictive-decisioning/demo-script) to go to the **Demo script** on the next tab.
+Click [here](demo-script) to go to the **Demo script** on the next tab.

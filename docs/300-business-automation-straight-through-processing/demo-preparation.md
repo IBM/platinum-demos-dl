@@ -162,4 +162,4 @@ In this step, you will open the **Focus Corp - Your Returns and Refunds** page i
 
 </details>
 
-Click [here](/300-business-automation-straight-through-processing/demo-script) to go to the **Demo script** on the next tab.
+Click [here](demo-script) to go to the **Demo script** on the next tab.

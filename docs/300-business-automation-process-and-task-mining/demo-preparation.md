@@ -66,6 +66,6 @@ Use the TechZone published services to open the IBM Process Mining workspace in 
 
 ***
 
-Click [here](/300-business-automation-process-and-task-mining/demo-script) to go to the **Demo script** on the next tab.
+Click [here](demo-script) to go to the **Demo script** on the next tab.
 
 
