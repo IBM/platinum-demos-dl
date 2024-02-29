@@ -67,7 +67,7 @@ Once you have received your onboarding email, use your IBM ID to log in <a href=
 
 5. Click **Add skill +** (1). Click **Connect app** (2). <br/> <img src="images/Prep-1-5.jpg" width="800" /><br/>
 
-6. Use the following credentials: <br/><br/> • **Client ID** (1): 3MVG9HB6vm3GZZR_fBoKSxSomjQ8ZaShg9mWyjw2pJak55hcL8KGtUjjkooS7wpLD25QraIBxop4ThrTPK237 <br/> • **Client Secret** (2): 34CB8CCE1E4495C0CAE6A921A5FC7D17CC6CE614152175D20F5B00F8B250626C <br/><br/> Click **Connect app** (3). <br/> <img src="images/Prep-1-6.jpg" width="800" /><br/>
+6. Use the your salesforce credentials:  • **Client ID** (1)• **Client Secret** (2) Click **Connect app** (3). <br/> <inline-notification text="Request your Salesforce credentials contacting the #ba-techlcd-support slack channel"></inline-notification><img src="images/Prep-1-6.jpg" width="800" /><br/>
 
 7. Click the **menu slider** icon. <br/> <img src="images/Prep-1-7.jpg" width="500" /><br/>
 
