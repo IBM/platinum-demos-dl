@@ -1,9 +1,9 @@
 ---
 title: Predictive decisioning <br/> 300-level live demo
 layout: preparation
-banner: images/WIP.jpg
+banner: images/Predictive-Decisioning-300-Prep-GitHub-banner-12-15-21.jpg
 ---
-<inline-notification text="The environments required to operate this demonstration are no longer available. We are working on migrating this demonstration to a new environment as soon as possible. Thank you for your understanding."></inline-notification> 
+
 <span id="top"></span>
 
 | DEMO OVERVIEW | |

@@ -1,8 +1,9 @@
 ---
 title: Leveraging ODM decisions in watsonx Orchestrate <br/> 300-level live demo
 layout: preparation
-banner: images/PREPBanner.jpg
+banner: images/WIP.jpg
 ---
+<inline-notification text="The environments required to operate this demonstration are no longer available. We are working on migrating this demonstration to a new environment as soon as possible. Thank you for your understanding."></inline-notification> 
 
 <span id="place1"></span>
 

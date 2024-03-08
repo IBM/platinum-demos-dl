@@ -1,7 +1,9 @@
 ---
 title: Managing and securing enterprise content at scale 300-level live demo
 layout: preparation
-banner: images/managing-enterprise-content-PREP-banner.jpg
+banner: images/WIP.jpg
+---
+<inline-notification text="The environments required to operate this demonstration are no longer available. We are working on migrating this demonstration to a new environment as soon as possible. Thank you for your understanding."></inline-notification> 
 ---
 
 <span id="top"></span>
