@@ -1,7 +1,7 @@
 ---
 title: Boosting sales productivity with watsonx Orchestrate<br/>Level 3 Sales demo
 layout: demoscript
-banner: images/wxo_l3_sales_script_banner.jpg
+banner: images/Banner_wxo_l3_sales_script.png
 ---
 
 <span id="top"></span>
@@ -88,10 +88,10 @@ Let's get started.
 
 <br/>
 
-| **3.1** | **Use generative AI to write a personalized email to the client** |
+| **3.1** | **Use generative AI to write a personalized email for the client** |
 | :--- | :--- |
 | **Narration** | Personalized emails increase the likelihood of conversion. IBM watsonx Orchestrate uses one of IBM's Large Language Models (LLM's), built on the watsonx.ai platform. This model generates a personalized email for the selected customer. Perfecting the AI prompt to generate a properly formatted email is typically a time-consuming activity. To make this faster and repeatable for insurance sellers, watsonx Orchestrate used its embedded decision skill to create the prompt, but the agent still has control over all the parameters used to generate the email.<br/><br/>The agent may have adjusted the prompt in the previous step, but now we are ready to submit all of the parameters into the LLM. These parameters control the length of the generated email, the model used, and some further tuning parameters. |
-| **Action** &nbsp; 3.1.1 | Perform the following steps to submit the request to the LLM:<br/><br/>1. Optionally, click on **Show all fields** to reveal all the LLM parameters (changing these parameters is **not recommended**).<br/>2. Click **Apply** and the prompt will be submitted into the generative AI model. (Note: email generation will take approx 30 seconds to complete). <br/><img src="images/3-1-1.png" width="800" /> |
+| **Action** &nbsp; 3.1.1 | Perform the following steps to submit the request to the LLM:<br/><br/>1. Optionally, click on **Show all fields** to reveal all the LLM parameters (changing these parameters is not recommended).<br/>2. Click **Apply** and the prompt will be submitted into the generative AI model. (Note: email generation will take approx 30 seconds to complete). <br/><img src="images/3-1-1.png" width="800" /> |
 
 <br/>
 
