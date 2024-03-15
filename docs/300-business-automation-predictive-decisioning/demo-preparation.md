@@ -504,7 +504,7 @@ Prior to performing this step, make sure you have downloaded the <a href="./file
 
 27.	Click **Select…** in the **Details** pane. <br/><img src="images/Prep-11-27.png" width="800" /><br/>
 
-28.	Select **decision_mlsamples_telco¬_retention_data_Offer** as the **Business Object**. <br/><img src="images/Prep-11-28.png" width="800" /><br/>
+28.	Select **decision_mlsamples_telco_retention_data_Offer** as the **Business Object**. <br/><img src="images/Prep-11-28.png" width="800" /><br/>
 
 29.	Click the **Diagram** tab. <br/><img src="images/Prep-11-29.png" width="800" /><br/>
 
