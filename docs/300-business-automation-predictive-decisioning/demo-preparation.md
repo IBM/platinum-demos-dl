@@ -508,7 +508,7 @@ Prior to performing this step, make sure you have downloaded the <a href="./file
 
 29.	Click the **Diagram** tab. <br/><img src="images/Prep-11-29.png" width="800" /><br/>
 
-30.	Select **retentionOffer** on the **Operation** selector in the **Implementation** tab below the diagram. <br/><img src="images/Prep-11-30.png" width="800" /><br/>
+30.	Select **retentionOffer** on the **Operation** selector in the **Implementation** tab below the diagram.<br/><img src="images/Prep-11-30.png" width="800" /><br/>
 
 31.	Click **Open** in the Input and Output mapping. <br/><img src="images/Prep-11-31.png" width="800" /><br/>
 
