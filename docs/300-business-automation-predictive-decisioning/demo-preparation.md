@@ -1,10 +1,9 @@
 ---
 title: Predictive decisioning <br/> 300-level live demo
 layout: preparation
-banner: images/WIP.jpg
+banner: images/Predictive-Decisioning-300-Prep-GitHub-banner-12-15-21.jpg
 ---
-<inline-notification text="The environments required to operate this demonstration are no longer available. We are working on migrating this demonstration to a new environment as soon as possible. Thank you for your understanding."></inline-notification> 
-<span id="top"></span>
+
 
 | DEMO OVERVIEW | |
 | :---         | :--- |
@@ -14,9 +13,9 @@ banner: images/WIP.jpg
 | **Sales guidance** | Download the sales guidance document <a href="./files/Predictive Decisioning Platinum Demo - Sales guidance.pdf" target="_blank" rel="noreferrer">here</a>. |
 | **Demo intro slides** | Download the Introduction and Overview slides <a href="./files/Predictive Decisioning Platinum Demo - Intro deck.pptx" target="_blank" rel="noreferrer">here</a>. This is a short deck of customer-facing slides that sets the context for the demo. |
 | **Demo script** | A complete demo script is on the second tab above. You can download a printer-ready PDF of the demo script <a href="./files/Predictive Decisioning Platinum Demo - PDF script.pdf" target="_blank" rel="noreferrer">here</a>. <br/><br/> This demo script has multiple tasks that each have multiple steps. In each step, you have the details about what you need to do (**Actions**), what you can say while delivering this demo step (**Narration**), and screenshots of what you will see.<br/><br/>This demo script is a suggestion, and you are welcome to customize based on your sales opportunity. Most importantly, practice this demo in advance. If the demo seems easy for you to execute, the customer will focus on the content. If it seems difficult for you to execute, the customer will focus on your delivery. |
-| **Demo downloads** | • <a href="./files/Retention Policy.pdf" target="_blank" rel="noreferrer">SkyTalk’s Retention offer document.pdf</a> <br/>• <a href="./files/SkyTalk customer loyalty data.csv" target="_blank" rel="noreferrer">SkyTalk customer loyalty data.csv</a> <br/>• <a href="./files/SkyTalk customer value data.csv" target="_blank" rel="noreferrer">SkyTalk customer value data.csv</a> <br/>• <a href="./files/SkyTalk_call_center_application_23.0.1.twx" target="_blank" rel="noreferrer">SkyTalk_call_center_application_23.0.1.twx</a> <br/>• <a href="./files/SkyTalk-customer-retention_23.0.1.zip" target="_blank" rel="noreferrer">SkyTalk-customer-retention_23.0.1.zip</a> |
+| **Demo downloads** | • <a href="./files/Retention Policy.pdf" target="_blank" rel="noreferrer">SkyTalk’s Retention offer document.pdf</a> <br/>• <a href="./files/SkyTalk customer loyalty data.csv" target="_blank" rel="noreferrer">SkyTalk customer loyalty data.csv</a> <br/>• <a href="./files/SkyTalk customer value data.csv" target="_blank" rel="noreferrer">SkyTalk customer value data.csv</a> <br/>• <a href="./files/SkyTalk_call_center_application_23.0.2.twx" target="_blank" rel="noreferrer">SkyTalk_call_center_application_23.0.2.twx</a> <br/>• <a href="./files/SkyTalk-customer-retention_23.0.2.zip" target="_blank" rel="noreferrer">SkyTalk-customer-retention_23.0.2.zip</a> |
 | **Sales enablement video** | View the enablement video  <a href="https://ibm.box.com/s/mzlmipw8gux5xnaeokjgvko10vxrsdkl" target="_blank" rel="noreferrer">here</a>. This video is for enablement purposes only (IBMers and Business Partners) and is not customer-ready. |
-| **Required versions** | Cloud Pak for Business Automation V23.0.1, Cloud Pak for Data 4.0 <br/><br/> Other version: [Cloud Pak for Business Automation V22.0.2](/300-business-automation-predictive-decisioning/v22.0.2) |
+| **Required versions** | Cloud Pak for Business Automation V23.0.2, Cloud Pak for Data 4.0 <br/> |
 | **How to get support** | • Open a support case at <a href="https://techzone.ibm.com/help" target="_blank" rel="noreferrer">IBM Technology Zone Help</a> regarding issues with reserving and provisioning Tech Zone environments.<br/>• IBMers, contact <a href="https://ibm.enterprise.slack.com/archives/C06HT5PHLN9" target="_blank" rel="noreferrer">#ba-techlcd-support</a>  regarding issues with setting up and running this demo. |
 
 <span id="top"></span>
@@ -45,18 +44,29 @@ Assuming you undeploy after each time you give or practice the demo, we estimate
 
 <summary>1 - Provision an OpenShift environment and deploy Cloud Pak for Business Automation</summary>
 
-<br/>
-To run this demonstration, you will need an OpenShift environment with Cloud Pak for Business Automation V23.0.1 installed. 
-<br/>
-You have two options to get your Cloud Pak for Business Automation V23.0.1 environment. 
-<br/>
+To run this demonstration, you will need an OpenShift environment with Cloud Pak
+for Business Automation 23.0.2 installed. We will use IBM Operational Decision
+Manager on prem version contained in this installation. <br/> <inline-notification text="Note: If you want to use your ODM hosted on a SaaS tenant, just contact your SaaS administrator to get a user and password to connect your RES in Basic Authentication. Go directly to Step 3: Download the installation files."></inline-notification>
 
-| DESCRIPTION | OPPORTUNITY NUMBER REQUIRED? | CP4BA INSTALL TYPE | GOOD FOR... | LINK |
-| :---         | :--- | :--- | :--- | :--- |
-| **Automatically installed Pak Installer CP4BA cluster** | NO (allows Practice / Self-Education) | Automated by ITZ and DAFFY | Users who don't need to build skills in CP4BA install | <a href="./files/Using-the-Pak-Installer-23-0-1-pre-configured-VMware-image.pdf" target="_blank" rel="noreferrer">Pak Installer guide</a> |
-| **Self-installed ITZ OpenShift cluster** | NO (allows Practice / Self-Education) | Manual with step-by-step instructions | Users who have skills in CP4BA install, want more control over the cluster's deployment, already have or wish to build familiarity with ITZ IPI/UPI clusters or want to use the latest **CP4BA IFix version** | <a href="./files/Installing-CP4BA-23-0-1-on-a-TechZone-OpenShift-VMware-image.pdf" target="_blank" rel="noreferrer">CP4BA Deployment guide</a> |
+1. Visit the <a href="https://techzone.ibm.com/collection/tech-zone-certified-base-images/journey-pre-installed-software" target="_blank" rel="noreferrer">TechZone environment provisioning</a> page. <br/><br/>
 
-<br/>
+2. Click the **CP4BA 23.0.x - Multi-Pattern Starter** tile. <br/> <img src="images/Prep-1-2-2.png" width="800" /><br/>
+
+3. Select **Reserve now** tile. <br/> <img src="images/Prep-1-2-3.png" width="800" /><br/>
+
+4. Select **Practice / Self-Education** <br/> <img src="images/Prep-1-2-4.png" width="800" /><br/>
+
+5. Enter a **Purpose description** <br/> <img src="images/Prep-1-2-5.png" width="800" /><br/>
+
+6. Select your **Preferred Geography** <br/> <img src="images/Prep-1-2-6.png" width="800" /><br/>
+
+7. Select  **'5''** as **'Worker Node Couunt'**<br/> <img src="images/Prep-1-2-7.png" width="800" /><br/>
+
+8. Select **’16 vCPU x 64GB – 100GB ephemeral storage’** as the **Starter service** (1) in the **Worker Node Flavor** <br/> <img src="images/Prep-1-2-8.png" width="800" /><br/>
+
+9. Read and agree to **IBM Technology Zone's Terms and Conditions and End User Security Policies** (1). Click **Submit** (2). <br/> <img src="images/Prep-1-2-9.png" width="800" /><br/>
+
+10. Check that the request was correctly submitted, and wait for the confirmation emails. <br/> <img src="images/Prep-1-2-10.png" width="800" /><br/>
 
 **[Go to top](#top)**
 
@@ -66,25 +76,31 @@ You have two options to get your Cloud Pak for Business Automation V23.0.1 envir
 
 <summary>2 - Validate your environment and bookmark your IDs and URLs</summary>
 <br/>
-After 5-6 hours, your Cloud Pak for Business Automation environment should be ready. 
-<br/>
-The setup is completed when the cp4ba access information config map is created with the URL and credentials to log in to the various installed components. 
-<br/>
+After 4-5 hours, your Cloud Pak for Business Automation (CP4BA) should be ready. After requesting your CP4BA, you will receive a series of emails from IBM Technology Zone regarding the progress of your request.
+
+1. Check for an email with the subject **Reservation Ready on IBM Technology Zone** (1). Click **View My Reservations** (2) <br/> <img src="images/Prep-2-1-1.png" width="800" /><br/>
+
+2. Copy paste your **Kubeadmin / Passwords** in your notebook <br/> <img src="images/Prep-2-1-2.png" width="800" /><br/>
+
+3. Click your reservation tile. <br/> <img src="images/Prep-2-1-3.png" width="800" /><br/> <inline-notification text="Your reservation status should be <strong>Ready</strong>"></inline-notification> 
+
+4. Click the **Open your IBM Cloud environment**. <br/> <img src="images/Prep-2-1-4.png" width="800" /><br/>
+
 1. Log in to your OpenShift console using the credentials provided during section 1 above.<br/><br/>
-2. Expand the **Workloads** (1) and click **ConfigMaps** (2). 
-<img src="images/prep-click-configmaps.png" width="800" /><br/>
-3. Expand the **projects** menu (1) and click **cp4ba-starter** (2).
-<img src="images/prep-click-4ba-starter.png" width="800" /><br/>
-4. Type '**access**' (1). Check that the **icp4adeploy-cp4ba-access-info** config map is present.
-<img src="images/prep-configmap-displays.png" width="800" /><inline-notification text="If the file is not listed, wait five more minutes for the CP4BA deployment to be completed"></inline-notification>
-5. Click **icp4adeploy-cp4ba-access-info**. 
-<img src="images/prep-click-deploy.png" width="800" /><br/>
-6. Scroll down (1) and check that all the ADS access information is displayed. ADS is the last element to install, so your CP4BA setup is completed once this info displays. 
-<img src="images/prep-ads-access-info.png" width="800" /><br/>
-7. Copy the **CP4admin username** and **password** used to log in to the various CP4BA components into a note to access later.
-<img src="images/prep-copy-login-info.png" width="800" /><br/>
-8. Copy the **URL** needed to access the various products required in this demonstration into a note to access later.
-<img src="images/prep-copy-url.png" width="800" /><br/>
+
+6. Expand the **Workloads** (1) and click **ConfigMaps** (2). <img src="images/Prep-2-6.png" width="800" /><br/>
+
+7. Expand the **projects** menu (1) and click **cp4ba-starter** (2).<img src="images/Prep-2-7.png" width="800" /><br/>
+
+8. Type '**access**' (1). Check that the **icp4adeploy-cp4ba-access-info** config map is present. <img src="images/Prep-2-8.png" width="800" /><inline-notification text="If the file is not listed, wait five more minutes for the CP4BA deployment to be completed"></inline-notification>
+
+9. Click **icp4adeploy-cp4ba-access-info**. <img src="images/Prep-2-9.png" width="800" /><br/>
+
+10. Scroll down (1) and check that all the ADS access information is displayed. ADS is the last element to install, so your CP4BA setup is completed once this info displays. <br/><img src="images/Prep-2-10.png" width="800" /><br/>
+
+11. Copy the **CP4admin username** and **password** used to log in to the various CP4BA components into a note to access later. <img src="images/Prep-2-11.png" width="800" /><br/>
+
+12. Copy the **URL** needed to access the various products required in this demonstration into a note to access later.<img src="images/Prep-2-12.png" width="800" /><br/>
 
 **[Go to top](#top)**
 
@@ -105,7 +121,7 @@ After logging into GitHub:
 5. Click **Developer settings**.<br/><img src="images/Prep14.png" width="800" /><br/>
 6. Expand **Personal access tokens** and click **Tokens (classic)**.<br/><img src="images/Prep15.png" width="800" /><br/>
 7. Click **Generate new token**.<br/><img src="images/Prep16.png" width="800" /><br/>
-8. Enter **'ADS Platinum demo 23.0.1'** in the **Note** (1) and check **repo** (2).<br/><img src="images/Prep-3-8.png" width="800" /><br/>
+8. Enter **'ADS Platinum demo 23.0.2'** in the **Note** (1) and check **repo** (2).<br/><img src="images/Prep-3-8.png" width="800" /><br/>
 9. Scroll down and click **Generate token**.<br/><img src="images/Prep18.png" width="800" /><br/>
 10. Copy the **Personal access token** ID (it will be used in ADS).<br/><img src="images/Prep19.png" width="800" /><br/>
 11. Expand your profile (1) and copy your **username** (it will be used in ADS).<br/><img src="images/Username.png" width="800" /><br/>
@@ -297,7 +313,7 @@ This section explains how to get the credentials to set up the machine learning 
 <details markdown="1">
 
 <summary>8 - Open Automation Decision Services (ADS) and import the ADS demo project </summary>
-Prior to performing this step, make sure you have downloaded the <a href="./files/SkyTalk-customer-retention_23.0.1.zip" target="_blank" rel="noreferrer">SkyTalk-customer-retention_23.0.1.zip</a> file. This file is required to set up the ADS decision service.
+Prior to performing this step, make sure you have downloaded the <a href="./files/SkyTalk-customer-retention_23.0.2.zip" target="_blank" rel="noreferrer">SkyTalk-customer-retention_23.0.2.zip</a> file. This file is required to set up the ADS decision service.
 <br/>
 1. Access the Cloud Pak for Business Automation using the bookmark saved in step 2. Select **Enterprise LDAP** in the **Log in with** drop down menu (1). Enter **‘cp4admin’** as the **Username** and the **Password** (2) from your note. Click **Log in** (3).<br/><img src="images/Prep269.png" width="800" /><br/>
 2. Expand the **top menu** (1) and click **Business automations** (2) under **Design**.
@@ -316,7 +332,7 @@ Prior to performing this step, make sure you have downloaded the <a href="./file
 <br/><img src="images/Prep-click-import-ds.png" width="800" /><br/>
 10. Click **Browse**.
 <br/><img src="images/Prep-click-browse.png" width="800" /><br/>
-11. Select the <a href="./files/SkyTalk-customer-retention_23.0.1.zip" target="_blank" rel="noreferrer">SkyTalk-customer-retention_23.0.1.zip</a> file (1) and click **Open** (2).
+11. Select the <a href="./files/SkyTalk-customer-retention_23.0.2.zip" target="_blank" rel="noreferrer">SkyTalk-customer-retention_23.0.2.zip</a> file (1) and click **Open** (2).
 <br/><img src="images/Prep-8-11.png" width="800" /><br/>
 12. Click **Import**.
 <br/><img src="images/Prep-click-import.png" width="800" /><br/>
@@ -431,81 +447,87 @@ Your result should match the screenshot below.<br/><img src="images/Prep117.png"
 <details markdown="1">
 
 <summary>11 - Configure Application Designer and import the client application</summary>
-Prior to performing this step, make sure you have downloaded the <a href="./files/SkyTalk_call_center_application_23.0.1.twx" target="_blank" rel="noreferrer"> SkyTalk_call_center_application_23.0.1.twx</a> archive file. This file is required to set up the ADS decision service.
+Prior to performing this step, make sure you have downloaded the <a href="./files/SkyTalk_call_center_application_23.0.2.twx" target="_blank" rel="noreferrer"> SkyTalk_call_center_application_23.0.2.twx</a> archive file. This file is required to set up the ADS decision service.
 <br/>
-1. Expand the **top menu** (1), click **Design** (2), and then click **Business applications** (3).
-<br/><img src="images/Prep133.png" width="800" /><br/>
-2. Click **Import**.
-<br/><img src="images/Prep134.png" width="800" /><br/>
-3. Click the **upload link**.
-<br/><img src="images/Prep-upload-link.png" width="800" /><br/>
 
-4. Select the **SkyTalk_call_center_application_23.0.1.twx** file (1) and then click **Open** (2). <br/><img src="images/Prep-11-4.png" width="800" /><br/>
-5. Click **OK**.
-<br/><img src="images/Prep136.png" width="800" /><br/>
-6. After the import, hover the mouse over the **SkyTalk call center Application** tile and click **Open**.
-<br/><img src="images/Prep137.png" width="800" /><br/>
-7. Click the **gear** icon.
-<br/><img src="images/Prep138.png" width="800" /><br/>
-8. Set the **View mode** (1) to **Advanced**. Click **Save** (2).
-<br/><img src="images/Prep139.png" width="800" /><br/>
-9. Refresh the page and ensure the **Overview**, **Diagram**, and **Variables** tabs are visible.
-<br/><img src="images/Prep140.png" width="800" /><br/>
-10. Click the **gear** icon on the left-hand side ribbon.
-<br/><img src="images/Prep141.png" width="800" /><br/>
-11. Click **Action and services** (1), right-click **rentention_ml** (2) and then click **Delete** (3).
-<br/><img src="images/Prep142.png" width="800" /><br/>
-12. Click **Yes** to confirm.
-<br/><img src="images/Prep143.png" width="800" /><br/>
-13. Click the **Diagram** tab.
-<br/><img src="images/Prep144.png" width="800" /><br/>
-14. Select the **Call skytalk_retention_ds** node (1) and then click the **Implementation** tab (2) below the diagram.
-<br/><img src="images/Prep145.png" width="800" /><br/>
-15. Click **New…**
-<br/><img src="images/Prep146.png" width="800" /><br/>
-16. Click **retention_ml Decision** (1), select the most recent version (2) as the **default version to use at runtime**, and click **Add** (3).
-<br/><img src="images/Prep147.png" width="800" /><br/>
-17.	Click **x** to close the **retention_ml** Service display.
-<br/><img src="images/Prep148.png" width="800" /><br/>
-18.	Click the **Variables** tab at the top of the diagram.
-<br/><img src="images/Prep149.png" width="800" /><br/>
-19. Select **customer (unavailable)** in the **Data** variables list.
-<br/><img src="images/Prep150.png" width="800" /><br/>
-20.	Click **Select…** in the **Details** pane.
-<br/><img src="images/Prep151.png" width="800" /><br/>
-21.	Select **decision_mlsamples_telco_retention_data_CustomerRecord** as the **Business Object**.
-<br/><img src="images/Prep152.png" width="800" /><br/>
-22.	Select **subscription (unavailable)** in the **Data** variables list.
-<br/><img src="images/Prep153.png" width="800" /><br/>
-23.	Click **Select…** in the **Details** pane.
-<br/><img src="images/Prep154.png" width="800" /><br/>
-24. Select **decision_mlsamples_telcor_etention_data_Subscription** as the **Business Object**.
-<br/><img src="images/Prep155.png" width="800" /><br/>
-25.	Select **retentionOffer (unavailable)** in the **Data** variables list.
-<br/><img src="images/Prep156.png" width="800" /><br/>
-26.	Click **Select…** in the **Details** pane.
-<br/><img src="images/Prep157.png" width="800" /><br/>
-27.	Select **decision_mlsamples_telco¬_retention_data_Offer** as the **Business Object**.
-<br/><img src="images/Prep158.png" width="800" /><br/>
-28.	Click the **Diagram** tab.
-<br/><img src="images/Prep159.png" width="800" /><br/>
-29.	Select **retentionOffer** on the **Operation** selector in the **Implementation** tab below the diagram.
-<br/><img src="images/Prep160.png" width="800" /><br/>
-30.	Click the **Data Mapping** tab below the diagram.
-<br/><img src="images/Prep161.png" width="800" /><br/>
-31.	Click the **automatic input mapping wand** icon.
-<br/><img src="images/Prep162.png" width="800" /><br/>
-32.	Click the **automatic output mapping wand** icon.
-<br/><img src="images/Prep163.png" width="800" /><br/>
-33. Click **Preview**.
-<br/><img src="images/Prep164.png" width="800" /><br/><inline-notification text="If the preview window displays an error, log out and log in again from your Cloud Pak instance, or wait a little bit and try again when the background operations are completed."></inline-notification> 
-34.	Enter **'Sarah Miller'** (1) in the **Search customer** field and click **Search** (2).
-<br/><img src="images/Prep165.png" width="800" /><br/>
-35.	Click **Get offer**.
-<br/><img src="images/Prep166.png" width="800" /><br/>
-36.	If you get a response without an error message, you are ready to demo.
+1. Expand the **top menu** (1), click **Design** (2), and then click **Business applications** (3).<br/><img src="images/Prep-11-1.png" width="800" /><br/>
+
+2. Click **Import**. <br/><img src="images/Prep-11-2.png" width="800" /><br/>
+
+3. Click the **upload link**. <br/><img src="images/Prep-11-3.png" width="800" /><br/>
+
+4. Select the **SkyTalk_call_center_application_23.0.2.twx** file (1) and then click **Open** (2). <br/><img src="images/Prep-11-4.png" width="800" /><br/>
+
+5. Click **Import**. <br/><img src="images/Prep-11-5.png" width="800" /><br/>
+
+6. Click **Done**.<br/><img src="images/Prep-11-6.png" width="800" /><br/>
+
+7. After the import, hover the mouse over the **SkyTalk call center Application** tile and click **Open**.<br/><img src="images/Prep-11-7.png" width="800" /><br/>
+
+8. Click the **gear** icon. <br/><img src="images/Prep138.png" width="800" /><br/>
+
+9. Set the **View mode** (1) to **Advanced**. Click **Save** (2). <br/><img src="images/Prep139.png" width="800" /><br/>
+
+10. Refresh the page and ensure the **Overview**, **Diagram**, and **Variables** tabs are visible. <br/><img src="images/Prep-11-10.png" width="800" /><br/>
+
+11. Click the **gear** icon on the left-hand side ribbon. <br/><img src="images/Prep-11-11.png" width="800" /><br/>
+
+12. Click **Action and services** (1), right-click **rentention_ml** (2) and then click **Delete** (3). <br/><img src="images/Prep-11-12.png" width="800" /><br/>
+
+13. Click **Yes** to confirm.  <br/><img src="images/Prep143.png" width="800" /><br/>
+
+14. Click the **Diagram** tab.<br/><img src="images/Prep-11-14.png" width="800" /><br/>
+
+15. Select the **Call skytalk_retention_ds** node (1) and then click the **Implementation** tab (2) below the diagram. <br/><img src="images/Prep-11-15.png" width="800" /><br/>
+
+16. Click **New…** <br/><img src="images/Prep-11-16.png" width="800" /><br/>
+
+17. Click **retention_ml Decision** (1), select the most recent version (2) as the **default version to use at runtime**, and click **Add** (3). <br/><img src="images/Prep147.png" width="800" /><br/>
+
+18.	Click **x** to close the **retention_ml** service display. <br/><img src="images/Prep-11-18.png" width="800" /><br/>
+
+19.	Click the **Variables** tab at the top of the diagram. <br/><img src="images/Prep-11-19.png" width="800" /><br/>
+
+20. Select **customer (unavailable)** in the **Data** variables list. <br/><img src="images/Prep-11-20.png" width="800" /><br/>
+
+21.	Click **Select…** in the **Details** pane. <br/><img src="images/Prep-11-21.png" width="800" /><br/>
+
+22.	Select **decision_mlsamples_telco_retention_data_CustomerRecord** as the **Business Object**. <br/><img src="images/Prep-11-22.png" width="800" /><br/>
+
+23.	Select **subscription (unavailable)** in the **Data** variables list. <br/><img src="images/Prep-11-23.png" width="800" /><br/>
+
+24.	Click **Select…** in the **Details** pane. <br/><img src="images/Prep-11-24.png" width="800" /><br/>
+
+25. Select **decision_mlsamples_telcor_etention_data_Subscription** as the **Business Object**. <br/><img src="images/Prep-11-25.png" width="800" /><br/>
+
+26.	Select **retentionOffer (unavailable)** in the **Data** variables list. <br/><img src="images/Prep-11-26.png" width="800" /><br/>
+
+27.	Click **Select…** in the **Details** pane. <br/><img src="images/Prep-11-27.png" width="800" /><br/>
+
+28.	Select **decision_mlsamples_telco¬_retention_data_Offer** as the **Business Object**. <br/><img src="images/Prep-11-28.png" width="800" /><br/>
+
+29.	Click the **Diagram** tab. <br/><img src="images/Prep-11-29.png" width="800" /><br/>
+
+30.	Select **retentionOffer** on the **Operation** selector in the **Implementation** tab below the diagram. <br/><img src="images/Prep-11-30.png" width="800" /><br/>
+
+31.	Click **Open** in the Input and Output mapping. <br/><img src="images/Prep-11-31.png" width="800" /><br/>
+
+32.	Click **Insert suggestions**. <br/><img src="images/Prep-11-32.png" width="800" /><br/>
+
+33.	Click the **Output mapping** tab. <br/><img src="images/Prep-11-33.png" width="800" /><br/>
+
+34.	Click **Insert suggestions**. <br/><img src="images/Prep-11-34.png" width="800" /><br/>
+
+35.	Click **OK**  <br/><img src="images/Prep-11-35.png" width="800" /><br/>
+
+36. Click **Preview**  <br/><img src="images/Prep-11-36.png" width="800" /><br/> <inline-notification text="If the preview window displays an error, just logout and login again from your Cloud pak instance or wait a little bit and try again until the background operations are completed. "></inline-notification> 
+
+37.	Enter **'Sarah Miller'** (1) in the **Search customer** field and click **Search** (2). <br/><img src="images/Prep165.png" width="800" /><br/>
+
+38.	Click **Get offer**. <br/><img src="images/Prep166.png" width="800" /><br/>
+
+39.	If you get a response without an error message, you are ready to demo.
 <br/><img src="images/Prep167.png" width="800" /><br/>
-
 **[Go to top](#top)**
 
 </details>
@@ -685,36 +707,9 @@ Redeploy your ML services approximately 15 minutes prior to practicing or giving
 <summary>4 - Reconnect the decision services to the call center application</summary>
 This step must be performed anytime a new version of the **SkyTalk_rentention_DS** is deployed. Make sure only the latest deployed DS is published to prevent **Data renaming issues** when reimporting the new service
 <br/>
-1. Log in to Cloud Pak for Business Automation. Use the bookmark and credentials saved to your note in step 2.<br/>
-2. Expand the **top menu** (1), select the **arrow** icon (2) in the **Design** row, and then select **Business applications** (3).<br/><img src="images/Prep238.png" width="800" /><br/>
-3. Hover the mouse over the **SkyTalk call center Application** tile and click **Open**.<br/><img src="images/Prep239.png" width="800" /><br/>
-4. Click the **gear** icon in the left-hand side ribbon.<br/><img src="images/Prep240.png" width="800" /><br/>
-5. Click **Action and services** (1), right-click **rentention_ml** (2) and then click **Delete** (3).<br/><img src="images/Prep241.png" width="800" /><br/>
-6. Click **Yes** to confirm.<br/><img src="images/Prep242.png" width="800" /><br/>
-7. Click the **Diagram** tab.<br/><img src="images/Prep243.png" width="800" /><br/>
-8. Select the **Call skytalk_retention_ds** node (1) and click the **Implementation** tab (2) below the diagram.<br/><img src="images/Prep244.png" width="800" /><br/>
-9. Click **New…**<br/><img src="images/Prep245.png" width="800" /><br/>
-10.	Click **retention_ml** (1) and select the most recently deployed version (2) as the default **version to use at runtime**. Click **Add** (3).<inline-notification text="Close the window if it does not close automatically after clicking the <strong>Add</strong> button."></inline-notification><br/><img src="images/Prep246.png" width="800" /><br/>
-11.	Click **+** next to **retention_ml Service**.<br/><img src="images/Prep247.png" width="800" /><br/>
-12. Click the **Variables** tab.<br/><img src="images/Prep248.png" width="800" /><br/>
-13.	Click **customer (unavailable)**.<br/><img src="images/Prep249.png" width="800" /><br/>
-14. Click **Select…**<br/><img src="images/Prep250.png" width="800" /><br/>
-15.	Select **decision_mlsamples_telco_retention_data_CustomerRecord** as the **Business Object**.<br/><img src="images/Prep251.png" width="800" /><br/>
-16.	Click **subscription (unavailable)**.<br/><img src="images/Prep252.png" width="800" /><br/>
-17.	Click **Select…**<br/><img src="images/Prep253.png" width="800" /><br/>
-18.	Select **decision_mlsamples_telco_retention_data_Subscription** as the **Business Object**.<br/><img src="images/Prep254.png" width="800" /><br/>
-19.	Click **retentionOffer (unavailable)**.<br/><img src="images/Prep255.png" width="800" /><br/>
-20.	Click **Select…**<br/><img src="images/Prep256.png" width="800" /><br/>
-21.	Select **decision_mlsamples_telco_retention_data_Offer** as the **Business Object**.<br/><img src="images/Prep257.png" width="800" /><br/>
-22.	Click the **Diagram** tab.<br/><img src="images/Prep258.png" width="800" /><br/>
-23.	Select **retentionOffer** on the **Operation** selector in the **Implementation** tab below the diagram.<br/><img src="images/Prep259.png" width="800" /><br/>
-24.	Click the **Data mapping** tab below the diagram.<br/><img src="images/Prep260.png" width="800" /><br/>
-25.	Click the **automatic input mapping wand** icon.<br/><img src="images/Prep261.png" width="800" /><br/>
-26.	Click the **automatic output mapping wand** icon.<br/><img src="images/Prep262.png" width="800" /><br/>
-27.	Click **Preview**.<br/><img src="images/Prep263.png" width="800" /><br/>
-28.	Enter ‘**Peter Carter**’ (1) in the **Search customer** field and click **Search** (2).<br/><img src="images/Prep264.png" width="800" /><br/>
-29.	Click **Get offer**.<br/><img src="images/Prep265.png" width="800" /><br/>
-30.	The offer displays.<br/><img src="images/Prep266.png" width="800" /><br/>
+
+Once your decision service is deployed, repeat the Application configuration strating from **step 11.12**
+<br/>
 
 **[Go to top](#top)**
 </details>
