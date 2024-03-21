@@ -174,7 +174,7 @@ Let's get started.
 | **Action** &nbsp; 3.1.10 | Click **Add skills from the catalog**. <br/> <img src="images/3-1-10.png" width="800" /> |
 | **Action** &nbsp; 3.1.11 | Use your unique ID again to filter the list of skills (1). Click the card (2). <br/> <img src="images/3-1-11.jpg" width="800" /> |
 | **Action** &nbsp; 3.1.12 | Enter your unique ID again, if required (1). Click **Add skill +** (2). Click **Connect app** (3). <br/> <img src="images/3-1-12.jpg" width="800" /> |
-| **Action** &nbsp; 3.1.13 | Provide the **Client ID** and **Client Secret** (1). Click **Connect app** (2).<br/><br/> Use the following credentials: <br/> • **Client ID**: 3MVG9HB6vm3GZZR_fBoKSxSomjQ8ZaShg9mWyjw2pJak55hcL8KGtUjjkooS7wpLD25QraIBxop4ThrTPK237 <br/> • **Client Secret**: 34CB8CCE1E4495C0CAE6A921A5FC7D17CC6CE614152175D20F5B00F8B250626C <br/><br/> <img src="images/3-1-13.png" width="400" /> |
+| **Action** &nbsp; 3.1.13 | Provide the **Client ID** and **Client Secret** (1). Click **Connect app** (2).<br/><br/> Use your Salesforce provided credentials: • **Client ID** - **Client Secret** <br/> <inline-notification text="Request your Salesforce credentials contacting the <strong>#ba-techlcd-support</strong> slack channel"></inline-notification> <img src="images/3-1-13.png" width="400" /> |
 | **Narration** | Now that the skill is published and added to our personal skills, we can test it out. |
 | **Action** &nbsp; 3.1.14 | Return to the chat screen and run your new personal skill by clicking on the tile. <br/> <img src="images/3-1-14.jpg" width="800" /> |
 | **Narration** | We've successfully imported an OpenAPI custom skill file. When we run the new skill, we see the results of the Salesforce search displayed in a table. |

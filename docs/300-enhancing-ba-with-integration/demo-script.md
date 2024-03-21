@@ -18,9 +18,9 @@ We’ll aggregate data from multiple sources into a single API that can be used 
 
 Let’s see how it works.
 
-(Demo intro slides <a href="https://ibm.box.com/s/cpyk2zmgcupx4azzluh6eiks72j33ua3" target="_blank" rel="noreferrer">here</a>)
+(Demo intro slides <a href="./files/Enhancing Business Automation with Integration Platinum Demo - Intro deck.pptx" target="_blank" rel="noreferrer">here</a>)
 
-(Printer-ready PDF of demo script <a href="https://ibm.box.com/s/y1f2z8kkb648ci1t822vm9z6do5arc7j" target="_blank" rel="noreferrer">here</a>)
+(Printer-ready PDF of demo script <a href="./files/Enhancing Business Automation with Integration Platinum Demo - PDF script.pdf" target="_blank" rel="noreferrer">here</a>)
 
 **[Go to top](#top)**
 <br/>
