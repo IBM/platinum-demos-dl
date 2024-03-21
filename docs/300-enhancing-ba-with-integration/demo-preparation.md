@@ -1,5 +1,5 @@
 ---
-title: Enhancing business automation with integration <br/>300-level live demo
+title: Enhancing business automation with integration <br/>Level 3 Demo
 layout: preparation
 banner: images/banner-prep.jpg
 overview: Enhancing business automation with integration 300-level live demo
@@ -245,7 +245,7 @@ Now, let's configure our services endpoints in Cloud Pak for Integration.<br/>
 
 <summary>1 - Provision a Technology Zone demo environment</summary>
 
-1.  Reserve a Technology Zone demo environment <a href="https://techzone.ibm.com/my/reservations/create/64ff5a5bc02ef60017329109" target="_blank" rel="noreferrer">here</a>.
+1.  Reserve a Technology Zone demo environment <a href="https://techzone.ibm.com/collection/ibm-business-automation-traditional-and-on-premise/environments" target="_blank" rel="noreferrer">here</a>.
 
 2. Wait until your reservation status is **Ready** on the IBM Technology Zone’s **My Library → My Reservations** page. (You can either keep refreshing the My Reservation page or wait for a confirmation email.)<br/><br/>When your reservation is **Ready**, click the reservation tile to view the reservation details.<br/><img src="images/prep-res-ready.png" width="300" /><br/>
 
