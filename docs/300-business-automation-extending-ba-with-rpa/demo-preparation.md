@@ -1,5 +1,5 @@
 ---
-title: Extending business automation with RPA 300-level live demo
+title: Extending business automation with RPA Tech Sales Level 3 demo
 layout: preparation
 banner: images/RPA_300_Prep_Banner.jpg
 ---
