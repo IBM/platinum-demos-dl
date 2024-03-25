@@ -1,5 +1,5 @@
 ---
-title: Predictive decisioning <br/> 300-level live demo
+title: Predictive decisioning <br/>Tech sales level 3 demo
 layout: preparation
 banner: images/Predictive-Decisioning-300-Prep-GitHub-banner-12-15-21.jpg
 ---

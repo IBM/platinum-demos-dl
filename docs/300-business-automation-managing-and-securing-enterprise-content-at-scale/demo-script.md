@@ -1,5 +1,5 @@
 ---
-title: Managing and securing enterprise content at scale 300-level live demo
+title: Managing and securing enterprise content at scale <br/>Tech sales level 3 demo
 layout: demoscript
 banner: images/managing-enterprise-content-SCRIPT-banner.jpg
 ---
