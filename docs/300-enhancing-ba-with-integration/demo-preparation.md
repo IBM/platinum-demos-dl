@@ -1,5 +1,5 @@
 ---
-title: Enhancing business automation with integration <br/>Tech sales level 3 demo
+title: Enhancing business automation with integration <br/>Technical Sales Level 3 demo
 layout: preparation
 banner: images/banner-prep.jpg
 overview: Enhancing business automation with integration 300-level live demo

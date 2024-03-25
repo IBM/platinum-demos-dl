@@ -1,5 +1,5 @@
 ---
-title: Managing and securing enterprise content at scale <br/>Tech sales level 3 demo
+title: Managing and securing enterprise content at scale <br/>Technical Sales Level 3 demo
 layout: preparation
 banner: images/WIP.jpg
 ---
