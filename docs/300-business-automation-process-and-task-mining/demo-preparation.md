@@ -1,5 +1,5 @@
 ---
-title: Process and task mining 300-level live demo
+title: Process and task mining <br/>Technical Sales Level 3 demo
 layout: preparation
 banner: images/Process_mining_prep_banner.jpg
 ---
