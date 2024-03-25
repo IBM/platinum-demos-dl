@@ -30,6 +30,7 @@ topcategory: "## **INSTALL THE DEMO: Cloud Pak for Integration**"
 {% endif %}
 | **Required versions** | Cloud Pak for Integration 2023.4.1 |
 | **How to get support** | • Open a support case at <a href="https://techzone.ibm.com/help" target="_blank" rel="noreferrer">IBM Technology Zone Help</a> regarding issues with reserving and provisioning Tech Zone environments.<br/>• IBMers, contact <a href="https://ibm.enterprise.slack.com/archives/C06HT5PHLN9" target="_blank" rel="noreferrer">#ba-techlcd-support</a>  regarding issues with setting up and running this demo. |
+<br/>• Please note, this demo is offered as-is with little to no support. Instructions/screenshots based on the Cloud Pak for Business Automation (Windows VM) have not been updated to the latest environment. |
 
 {{ page.topcategory }}
 
