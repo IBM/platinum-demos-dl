@@ -312,7 +312,7 @@ You can now close the BAW VM console window.
 <summary>3 - Import the process app and update the 'AccountsServer' hostname in the process app settings</summary>
 
 
-Before completing this section, download the Select the **<a href="https://raw.githubusercontent.com/ibm/platinum-demos/master/docs/300-enhancing-ba-with-integration/New_Account_Opening.twx" target="_blank" rel="noreferrer">New Account Opening.twx</a>** file.<br/><br/>
+Before completing this section, download the Select the **<a href="./New Account Opening.twx" target="_blank" rel="noreferrer">New Account Opening.twx</a>** file.<br/><br/>
 
 1. Using a browser on your local computer, open **BAW Workflow Center** using the Published Services link from the top of the Technology Zone reservation page.<br/>
 
