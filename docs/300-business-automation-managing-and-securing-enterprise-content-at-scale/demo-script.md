@@ -1,7 +1,7 @@
 ---
 title: Managing and securing enterprise content at scale <br/>Technical Sales Level 3 demo
 layout: demoscript
-banner: images/managing-enterprise-content-SCRIPT-banner.jpg
+banner: images/Script-banner.png
 ---
 
 <span id="top"></span>

@@ -1,7 +1,7 @@
 ---
 title: Enhancing business automation with integration <br/>Technical Sales Level 3 demo
 layout: preparation
-banner: images/banner-prep.jpg
+banner: images/Prep-banner.png
 overview: Enhancing business automation with integration 300-level live demo
 product: Cloud Pak for Business Automation (CP4BA); Cloud Pak for Integration (CP4I)
 capabilities: Workflow (Cloud Pak for Business Automation); Application integration (Cloud Pak for Integration)
