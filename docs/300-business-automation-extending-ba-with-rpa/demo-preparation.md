@@ -62,7 +62,7 @@ For **Business Partners**, request your own RPA Server SaaS tenant for your orga
 
 <summary>2 - Provision a Technology Zone demo environment</summary><br/>
 
-1. Reserve a Technology Zone demo environment <a href="https://techzone.ibm.com/collection/ibm-business-automation-traditional-and-on-premise/environments" target="_blank" rel="noreferrer">here</a>.<br/>
+1. Reserve a Technology Zone demo environment <a href="https://techzone.ibm.com/collection/platinum-demos-extending-business-automation-with-RPA/environments" target="_blank" rel="noreferrer">here</a>.<br/>
 2. Wait until your reservation status is **Ready** on the IBM Technology Zone’s **My Library → My Reservations** page. (You can either keep refreshing the My Reservation page or wait for a confirmation email.)<br/><img src="./images/prep-res-status-ready.png" width="300" /><br/>When your reservation is **Ready**, click the reservation tile to view the reservation details.<br/>
 3. On the reservation details page, scroll down and click to open the RPA **VM Remote Console**. It is the link on the right. <br/>  <br/> <inline-notification text="Use the RPA VM Remote Console to setup and run the entire demo."></inline-notification> <br/><img src="./images/prep-rpa-remote-console.png" width="500" />
 4. The console will open. Click **Full screen**.<br/><img src="./images/prep-click-full-screen.png" width="500" /> <br/>
