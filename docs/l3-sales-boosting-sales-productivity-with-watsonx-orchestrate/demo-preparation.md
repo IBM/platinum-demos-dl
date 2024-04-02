@@ -1,7 +1,7 @@
 ---
 title: Boosting sales productivity with watsonx Orchestrate<br/>Technical Sales Level 3 demo
 layout: preparation
-banner: images/Banner_wxo_l3_sales_prep.png
+banner: images/Prep-banner.png
 ---
 
 <span id="place1"></span>

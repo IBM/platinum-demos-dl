@@ -1,7 +1,7 @@
 ---
 title: Extending business automation with RPA <br/>Technical Sales Level 3 demo
 layout: demoscript
-banner: images/RPA_300_Script_Banner.jpg
+banner: images/Script-banner.png
 ---
 
 <span id="top"></span>

@@ -1,7 +1,7 @@
 ---
 title: Straight-through processing <br/>Technical Sales Level 3 demo
 layout: preparation
-banner: images/BA_STP_300_Prep_GitHub_banner_8-3-21_short.jpg
+banner: images/Prep-banner.png
 ---
 
 <span id="top"></span>

@@ -1,7 +1,7 @@
 ---
 title: Predictive decisioning <br/>Technical Sales Level 3 demo
 layout: demoscript
-banner: images/Predictive-Decisioning-300-Script-GitHub-banner-12-15-21.jpg
+banner: images/Script-banner.png
 ---
 
 

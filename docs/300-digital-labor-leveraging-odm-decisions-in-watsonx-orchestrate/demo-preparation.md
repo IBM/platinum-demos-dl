@@ -1,7 +1,7 @@
 ---
 title: Leveraging ODM decisions in watsonx Orchestrate <br/>Technical Sales Level 3 demo
 layout: preparation
-banner: images/PREPBanner.jpg
+banner: images/Prep-banner.png
 ---
 
 <span id="place1"></span>

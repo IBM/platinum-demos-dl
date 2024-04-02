@@ -1,7 +1,7 @@
 ---
 title: Process and task mining <br/>Technical Sales Level 3 demo
 layout: preparation
-banner: images/Process_mining_prep_banner.jpg
+banner: images/Prep-banner.png
 ---
 
 <span id="top"></span>

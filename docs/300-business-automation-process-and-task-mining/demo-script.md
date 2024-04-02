@@ -1,7 +1,7 @@
 ---
 title: Process and task mining <br/>Technical Sales Level 3 demo
 layout: demoscript
-banner: images/Process_mining_script_banner.jpg
+banner: images/Script-banner.png
 ---
 
 <span id="top"></span>
@@ -72,7 +72,7 @@ Let’s get started.
 | :--- | :--- |
 | **Narration** | Process mining provides various ways to analyze the performance of the account closure process. The primary dimensions to consider are time, cost, and rework. For each of these dimensions, Key Performance Indicators (KPIs) are defined and visualized in the analysis. |
 | **Action** &nbsp; 2.3.1 | Click the **Eye** icon (1) to show the **View options** panel. Change the **View mode** to **Duration** (2). <br/> <img src="https://raw.githubusercontent.com/ibm-garage-tsa/platinum-demos/master/src/pages/300-business-automation-process-and-task-mining/images/2-3-1.png" width="800" /> |
-| **Narration** | Let’s see how the account closure process is performing based on time. 'BO Service Closure' is one of the activities taking the most time within the process. On average it takes more than a week to complete the activity. Since almost every case flows through this activity, this is our fundamental process bottleneck. |
+| **Narration** | Let’s see how the account closure process is performing based on time. 'BO Service Closure' is one of the activities taking the most time within the process. On average it takes more than a week to complete the account closure process. Since almost every case flows through this activity, this is our fundamental process bottleneck. |
 | **Action** &nbsp; 2.3.2 | Set **KPI palette** to **On**. <br/> <img src="https://raw.githubusercontent.com/ibm-garage-tsa/platinum-demos/master/src/pages/300-business-automation-process-and-task-mining/images/2-3-2.png" width="800" /> |
 | **Narration** | Next, let’s consider KPI measurement.  Defining KPIs for the process facilitates process analysis. KPIs for individual activity durations provide insights into whether actual durations are meeting expectations. <br/><br/> The KPI view indicates two of the average activity durations (highlighted in red) are not meeting expectations, including ‘BO Service Closure.’ In addition, one activity for account closure (highlighted in yellow) is at risk of not meeting expectations. |
 

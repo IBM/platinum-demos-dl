@@ -1,7 +1,7 @@
 ---
 title: Enhancing business automation with integration <br/>Technical Sales Level 3 demo
 layout: demoscript
-banner: images/banner-script.jpg
+banner: images/Script-banner.png
 ---
 
 <span id="top"></span>
