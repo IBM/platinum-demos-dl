@@ -136,58 +136,58 @@ Let’s get started.
 
 | :--- | :--- |
 | **Narration** | Individual skills can be useful when used in isolation, but greater value can be unlocked when they are combined into skill flows.  |
-| **Action** &nbsp; 4.1 | Click the **hamburger navigation** menu icon **(A)** and select **Skills and apps (B)** from the left menu. |
+| **Action** &nbsp; 4.1 | Click the **hamburger navigation** menu icon **(A)** and select **Skills and apps (B)** from the left menu.<br/><img src="images/Script-4-1.png" width="800" /> |
 | **Narration** | IBM watsonx Orchestrate provides access to a broad range of skills that help users perform their daily tasks. It comes with a collection of out-of-the-box, ready-to-use skills that range from working with productivity tools to providing deep analytical insights. <br/><br/>IBM watsonx Orchestrate developers, called ‘Builders,’ can create customized skills like the customer search and product upsell skills described earlier. As individual skills they are useful on their own, but combining them together can save an insurance sellers time, avoid errors, and produce better results. <br/><br/>Skill flows connect multiple skills together by using a low-code flow editor. In this example, a skill flow is created to combine the customer search skill with the product upsell decision and then generate a marketing email for a selected customer. |
-| **Action** &nbsp; 4.2 | Click on **Add skills (A)**, then select **Create a skill flow (B)**. |
+| **Action** &nbsp; 4.2 | Click on **Add skills (A)**, then select **Create a skill flow (B)**.<br/><img src="images/Script-4-2.png" width="800" /> |
 | **Narration** |The skill flow requires a unique name. |
-| **Action** &nbsp; 4.3 | Click the **Pencil** icon **(A)** and when the **Edit Skill flow details** section opens on the right, enter a name for the skill flow using the template Upsell **XXddmmyy (B)**. Now click the **Save** button **(C)**. |
-| **Action** &nbsp; 4.4 | Click the **+** icon. <br/><br/>  <inline-notification text=" You are using a shared demo tenant. Use the unique reference added to your skill names to find them in the catalog. It’s a good idea to keep this reference in your clipboard history so it can be pasted into the skill search panel."></inline-notification> |
+| **Action** &nbsp; 4.3 | Click the **Pencil** icon **(A)** and when the **Edit Skill flow details** section opens on the right, enter a name for the skill flow using the template Upsell **XXddmmyy (B)**. Now click the **Save** button **(C)**. <br/><img src="images/Script-4-3.png" width="800" />|
+| **Action** &nbsp; 4.4 | Click the **+** icon. <br/><img src="images/Script-4-4.png" width="800" /><br/><br/>  <inline-notification text=" You are using a shared demo tenant. Use the unique reference added to your skill names to find them in the catalog. It’s a good idea to keep this reference in your clipboard history so it can be pasted into the skill search panel."></inline-notification> |
 | **Narration** | On demo tenants a unique reference is used to locate the demo skills in the catalog. (This is only necessary on demo tenants, ordinarily these skills would be found by using just their name.) |
-| **Action** &nbsp; 4.5 | Enter the unique reference for your skills (**XXddmmyy**) into the **filter** panel and press **Enter** to filter the results. |
+| **Action** &nbsp; 4.5 | Enter the unique reference for your skills (**XXddmmyy**) into the **filter** panel and press **Enter** to filter the results.<br/><img src="images/Script-4-5.png" width="800" /> |
 | **Narration** | The first skill we need performs a customer search and it’s contained in the **CRM** tile. <br/><br/> <inline-notification text="This skill collection contains one skills; <strong>Get Customers with recent life events …</strong> that performs the customer search."></inline-notification> |
-| **Action** &nbsp; 4.6 | Click the **CRM** tile. <br/><br/> <inline-notification text="This skill collection contains one skills; Get Customers with recent life events … that performs the customer search."></inline-notification>|
-| **Action** &nbsp; 4.7 | Click **Add Skill** within the **Get Customers with recent life events …** tile.|
+| **Action** &nbsp; 4.6 | Click the **CRM** tile. <br/><img src="images/Script-4-6.png" width="800" /><br/><br/> <inline-notification text="This skill collection contains one skills; Get Customers with recent life events … that performs the customer search."></inline-notification>|
+| **Action** &nbsp; 4.7 | Click **Add Skill** within the **Get Customers with recent life events …** tile.<br/><img src="images/Script-4-7.png" width="800" />|
 | **Narration** | Add the next skill by clicking the **Plus** icon again, searching with the unique reference, then adding the skill. |
-| **Action** &nbsp; 4.8 | Click the **+** icon to the left of the end node. |
-| **Action** &nbsp; 4.9 | Enter the unique identifier for your skills (**XXddmmyy**) and press **Enter** to filter the results. |
-| **Action** &nbsp; 4.10| Click on the **L3_Upsell** tile with the unique reference you used. |
-| **Action** &nbsp; 4.11 | On the **L3_Upsell_XXddmmyy** tile, click **Add skill**. |
+| **Action** &nbsp; 4.8 | Click the **+** icon to the left of the end node.<br/><img src="images/Script-4-8.png" width="800" /> |
+| **Action** &nbsp; 4.9 | Enter the unique identifier for your skills (**XXddmmyy**) and press **Enter** to filter the results. <br/><img src="images/Script-4-9.png" width="800" />|
+| **Action** &nbsp; 4.10| Click on the **L3_Upsell** tile with the unique reference you used.<br/><img src="images/Script-4-10.png" width="800" /> |
+| **Action** &nbsp; 4.11 | On the **L3_Upsell_XXddmmyy** tile, click **Add skill**.<br/><img src="images/Script-4-11.png" width="800" /> |
 | **Narration** |Add the third skill by clicking the **Plus** icon again. |
-| **Action** &nbsp; 4.12 | Click the **+** icon to the left of the end node. |
-| **Action** &nbsp; 4.13 | Enter **“watsonx”** into the **Search** field and press **Enter** to filter the results.|
-| **Action** &nbsp; 4.14| Click the **watsonx.ai** collection tile. |
-| **Action** &nbsp; 4.15 | Click **Add Skill** within the **Generate an email** tile. |
+| **Action** &nbsp; 4.12 | Click the **+** icon to the left of the end node.<br/><img src="images/Script-4-12.png" width="800" /> |
+| **Action** &nbsp; 4.13 | Enter **“watsonx”** into the **Search** field and press **Enter** to filter the results.<br/><img src="images/Script-4-13.png" width="800" />|
+| **Action** &nbsp; 4.14| Click the **watsonx.ai** collection tile.<br/><img src="images/Script-4-14.png" width="800" /> |
+| **Action** &nbsp; 4.15 | Click **Add Skill** within the **Generate an email** tile.<br/><img src="images/Script-4-15.png" width="800" /> |
 | **Narration** |In this demo, an input form is used instead of one of the built-in email skills. This is done to avoid some additional setup, but from the user’s perspective the results are the same. The input form contains the same fields as the built-in email skill and allow us to map the various skill outputs together to build the final output. |
-| **Action** &nbsp; 4.16 | Click the + icon to the left of the end node.|
-| **Action** &nbsp; 4.17 | Type **“forms”** and press **Enter** to filter the results **(A)**, click **Custom forms (B)**. |
-| **Action** &nbsp; 4.18 | Click **Add skill** within the **Input form** tile.<br/><br/><inline-notification text="Your skill flow should now resemble the following example and have four skills."></inline-notification>|
+| **Action** &nbsp; 4.16 | Click the + icon to the left of the end node.<br/><img src="images/Script-4-16.png" width="800" />|
+| **Action** &nbsp; 4.17 | Type **“forms”** and press **Enter** to filter the results **(A)**, click **Custom forms (B)**.<br/><img src="images/Script-4-17.png" width="800" /> |
+| **Action** &nbsp; 4.18 | Click **Add skill** within the **Input form** tile.<br/><img src="images/Script-4-18.png" width="800" /><br/><br/><inline-notification text="Your skill flow should now resemble the following example and have four skills."></inline-notification><br/><img src="images/Script-4-18-bis.png" width="800" />|
 | **Narration** | Each skill can have one or more inputs and outputs. The skill flow editor allows builders to easily map the output from one skill into another. The first skill in this skill flow (**Get a list of customers with recent life events**) doesn’t require any configuration. But, the **L3_Upsell** skill needs to be configured to map the output from the **Get a list of customers** skill into its appropriate inputs. |
-| **Action** &nbsp; 4.19 | Configure the input form for **L3_Upsell_XXddmmyy** skill by performing the following steps: <br/>A. Select the **L3_Upsell_XXddmmyy** tile.<br/>B. Click **Input** to select the input form.<br/>C. Turn on the **Hide this input form from the user** option.|
+| **Action** &nbsp; 4.19 | Configure the input form for **L3_Upsell_XXddmmyy** skill by performing the following steps: <br/>A. Select the **L3_Upsell_XXddmmyy** tile.<br/>B. Click **Input** to select the input form.<br/>C. Turn on the **Hide this input form from the user** option.<br/><img src="images/Script-4-19.png" width="800" />|
 | **Narration** | Now the data can be mapped, starting with the customer’s age. |
-| **Action** &nbsp; 4.20 | Map the customer age input field of the skill by performing the following steps:<br/>A. Click the field **theCustomer.age**.<br/>B. Select **Get a list of customers with recent life events** from the available mappings.|
-| **Action** &nbsp; 4.21 | Scroll down and select **age**. |
+| **Action** &nbsp; 4.20 | Map the customer age input field of the skill by performing the following steps:<br/>A. Click the field **theCustomer.age**.<br/>B. Select **Get a list of customers with recent life events** from the available mappings.<br/><img src="images/Script-4-20.png" width="800" />|
+| **Action** &nbsp; 4.21 | Scroll down and select **age**.<br/><img src="images/Script-4-21.png" width="800" /> |
 | **Narration** |Mapping data can be done manually, but in some cases it’s easier to let the skill flow editor generate mapping suggestions for you. |
-| **Action** &nbsp; 4.22 | Click **Generate mapping suggestions**.|
+| **Action** &nbsp; 4.22 | Click **Generate mapping suggestions**.<br/><img src="images/Script-4-22.png" width="800" />|
 | **Narration** | Not all mappings can be generated. Later in the skill flow there will be multiple options, and as such, manual mapping will be required.  |
-| **Action** &nbsp; 4.23 | Map the remaining field. Scroll down and click **theCustomer.listOfCurrentProducts (A)**, then select **Get a list of customers with recent life events (B)**. |
-| **Action** &nbsp; 4.24 | Select **current_products** from the list of available mappings.|
+| **Action** &nbsp; 4.23 | Map the remaining field. Scroll down and click **theCustomer.listOfCurrentProducts (A)**, then select **Get a list of customers with recent life events (B)**. <br/><img src="images/Script-4-23.png" width="800" />|
+| **Action** &nbsp; 4.24 | Select **current_products** from the list of available mappings.<br/><img src="images/Script-4-24.png" width="800" />|
 | **Narration** | The for the L3_Upsell skill output form requires no configuration, but typically this output would be hidden as the user doesn’t need to see or edit the results. It will be left visible in this demo so that when the skill flow runs the output will be available for review.<br/><br/>The **Generate an email** skill creates the email body from the prompt received from the **L3_Upsell** decision skill.  |
-| **Action** &nbsp; 4.25 | Configure the input form for **Generate an email** by performing the following steps: <br/>A. Select the **Generate an email** tile in the skill flow.<br/>B. Select the **Input** tab.|
-| **Action** &nbsp; 4.26 | Map the **Input instruction** field by performing the following steps:<br/>A. Click on the **Input instruction** field.<br/>B. From **Available Mappings Skills** select the **L3_Upsell_XXddmmyy** skill.<br/><br/>C. Select **prompt**.|
+| **Action** &nbsp; 4.25 | Configure the input form for **Generate an email** by performing the following steps: <br/>A. Select the **Generate an email** tile in the skill flow.<br/>B. Select the **Input** tab.<br/><img src="images/Script-4-25.png" width="800" />|
+| **Action** &nbsp; 4.26 | Map the **Input instruction** field by performing the following steps:<br/>A. Click on the **Input instruction** field.<br/>B. From **Available Mappings Skills** select the **L3_Upsell_XXddmmyy** skill.<br/><img src="images/Script-4-26.png" width="800" /><br/>C. Select **prompt**.<br/><img src="images/Script-4-26-bis.png" width="800" />|
 | **Narration** | The **Generate an email** output form can be hidden as the output will be available to view in the next skill. |
-| **Action** &nbsp; 4.27 | Configure the **Generate an email** output form by performing the following steps: <br/>A. Click the **Generate an email** tile.<br/>B. Select the **Output** tab to select the output form.<br/>C. Turn on the **Hide this input form from the user** option.|
+| **Action** &nbsp; 4.27 | Configure the **Generate an email** output form by performing the following steps: <br/>A. Click the **Generate an email** tile.<br/>B. Select the **Output** tab to select the output form.<br/>C. Turn on the **Hide this input form from the user** option.<br/><img src="images/Script-4-27.png" width="800" />|
 | **Narration** | Following email content generation, an input form will be used to display the output and allow the sales agent to check the output for accuracy. The agent can also make any modifications before the response is sent to their customer. <br/><br/>The form is built by repeatedly adding input fields. |
-| **Action** &nbsp; 4.28| Configure the input form by performing the following steps: <br/>A. Select the **Input form** tile from the skill flow at the top of the screen.<br/>B. Enter a title for the form in the **Form title** field, for example **“Send email”**.|
+| **Action** &nbsp; 4.28| Configure the input form by performing the following steps: <br/>A. Select the **Input form** tile from the skill flow at the top of the screen.<br/>B. Enter a title for the form in the **Form title** field, for example **“Send email”**.<br/><img src="images/Script-4-28.png" width="800" />|
 | **Narration** |The form is built by repeatedly adding input fields. |
-| **Action** &nbsp; 4.29|Add a field to the form by performing the following steps: <br/> A. Click **Add input field**.<br/>B. Select the **Single line text** radio button under the **Add input field** section that appears on the right side of the screen.><br/>C. Click the **Next** button.|
+| **Action** &nbsp; 4.29|Add a field to the form by performing the following steps: <br/> A. Click **Add input field**.<br/>B. Select the **Single line text** radio button under the **Add input field** section that appears on the right side of the screen.><br/>C. Click the **Next** button.<br/><img src="images/Script-4-29.png" width="800" />|
 | **Narration** |The new input field will receive the email address of the selected customer. |
-| **Action** &nbsp; 4.30| A. Enter the value **“To”** into the **Display text** field in the **Add input field** section on the right side of the screen.<br/>B. Click the **Apply** button.|
+| **Action** &nbsp; 4.30| A. Enter the value **“To”** into the **Display text** field in the **Add input field** section on the right side of the screen.<br/>B. Click the **Apply** button.<br/><img src="images/Script-4-30.png" width="800" />|
 | **Narration** |The subject field can now be added to the form by repeating the same steps. |
 | **Action** &nbsp; 4.31| A. Repeat steps **4.29 and 4.30** to create a **Subject** field.|
 | **Narration** |Next, a field for the email body is added to the form. |
-| **Action** &nbsp; 4.32|Add a field to the form by performing the following steps: <br/>A. Click **Add input field**.<br/>B.  Select the Paragraph text radio button in the **Add input field** section on the right side of the screen.<br/>C. Click the **Next** button.|
+| **Action** &nbsp; 4.32|Add a field to the form by performing the following steps: <br/>A. Click **Add input field**.<br/>B.  Select the Paragraph text radio button in the **Add input field** section on the right side of the screen.<br/>C. Click the **Next** button.<br/><img src="images/Script-4-32.png" width="800" />|
 | **Narration** |This input field will receive the email body generated by watsonx.ai.|
- **Action** &nbsp; 4.33| Label the input field by performing the following steps: <br/> A.   Enter the value **“Email body”** into the **Display text** field.<br/>B. Click the **Apply** button.<br/><br/> <inline-notification text="Your form should now resemble the example below with <strong>To, Subject</strong> and <strong>Email body</strong> fields."></inline-notification>|
+ **Action** &nbsp; 4.33| Label the input field by performing the following steps: <br/> A.   Enter the value **“Email body”** into the **Display text** field.<br/>B. Click the **Apply** button.<br/><img src="images/Script-4-33.png" width="800" /><br/><br/> <inline-notification text="Your form should now resemble the example below with <strong>To, Subject</strong> and <strong>Email body</strong> fields."></inline-notification>|
 | **Narration** | To complete the form the mappings must be added. |
 | **Action** &nbsp; 4.34 | Configure the mappings for the input form by performing the following steps:<br/>A. Click the **To** field.<br/>B. From **Available Mappings**, select **Get a list of customers with recent life events XXddmmyy**.<br/><br/>C. Select the **email** mapping.<br/><br/>D. Hover over the **Subject** field and click the corresponding **Pencil** icon when it appears.<br/><br/>E. Under **Subject**, enter a default value, **“Your insurance”**.<br/><br/>F. Scroll down and click on the **Email body** field.<br/>G. In the **Available mappings** section, select **Generate an email**.<br/><br/>H. Select **generated_text**.|
 | **Narration** | This completes the skill flow creation. In the next section, you will save this skill flow and then publish it, so it is available for use by any seller at the insurance company.  |
@@ -225,18 +225,18 @@ Let’s get started.
 
 | :--- | :--- |
 | **Narration** | Before you run the new skill flow let’s summarize what you’ve seen so far:<br/>- Individual skills performing useful but isolated functions, such as customer search and product upsell.<br/>- A brief look into decision automation, and how business logic can be represented with a decision model. <br/>- Implemented a simple workflow using skill flows to connect skills together.<br/><br/>The skill flow is complete and published for sales agents to use.  Now let’s assume the persona of an insurance seller to see how the upsell process has been transformed with watsonx Orchestrate.|
-| **Action** &nbsp; 6.1 |Open the Chat window (if not already open) by clicking the **hamburger navigation** menu icon **(A)** and select **Chat (B)** from the left menu. |
-| **Action** &nbsp; 6.2 | Perform the following steps:<br/>A. Type the command **“write an upsell email to my customers”**.<br/>B. Click the **Send** arrow.<br/><br/> <inline-notification text="You can also click the skill tile that corresponds to the skill flow you created to invoke this skill."></inline-notification>|
+| **Action** &nbsp; 6.1 |Open the Chat window (if not already open) by clicking the **hamburger navigation** menu icon **(A)** and select **Chat (B)** from the left menu. <br/><img src="images/Script-6-1.png" width="800" /> |
+| **Action** &nbsp; 6.2 | Perform the following steps:<br/>A. Type the command **“write an upsell email to my customers”**.<br/>B. Click the **Send** arrow.<br/><br/> <inline-notification text="You can also click the skill tile that corresponds to the skill flow you created to invoke this skill."></inline-notification><br/><img src="images/Script-6-2.png" width="800" />|
 | **Narration** | IBM watsonx Orchestrate runs the skill flow, retrieving a list of customers with recent life events. The retrieved customer data is neatly displayed in a table within the chat interface.<br/><br/>The agent reviews the list of customers and pursues a cross-sell opportunity with **Janet Thomas**, who has recently turned 64, as depicted in the **Recent Change** field.|
-| **Action** &nbsp; 6.3 | Select the radio button associated with **Janet Thomas (A)** from the table. |
+| **Action** &nbsp; 6.3 | Select the radio button associated with **Janet Thomas (A)** from the table.<br/><img src="images/Script-6-3.png" width="800" /> |
 | **Narration** | Next, the agent needs to determine which products to recommend for Janet based on her circumstances and recent life event.<br/><br/>The customer details from the CRM system are automatically submitted into watsonx Orchestrate’s built-in decision engine and the upsell recommendations are displayed. Behind the scenes, the decision engine applies business logic that considers many different attributes specific to this customer (Janet Thomas), such as age, life event, and current coverage to determine the best product that the insurance agent should suggest to this customer.|
-| **Action** &nbsp; 6.4 | Click the **Apply** button. |
-| **Action** &nbsp; 6.5 | Two skills have run in quick succession, scroll back so that the upsell decision output is displayed. |
+| **Action** &nbsp; 6.4 | Click the **Apply** button. <br/><img src="images/Script-6-4.png" width="800" />|
+| **Action** &nbsp; 6.5 | Two skills have run in quick succession, scroll back so that the upsell decision output is displayed.<br/><img src="images/Script-6-5.png" width="800" /> |
 | **Narration** | In this case, the decision engine recommended the **Silver Travel Insurance Plan**, and based on this, it has also created a prompt for a generative AI model to create the marketing upsell email. |
-| **Action** &nbsp; 6.6 | Review the prompt then scroll to the bottom of the chat window to review the input for the generative AI model.|
-| **Action** &nbsp; 6.7 |Perform the following steps:<br/><br/>A. Review the prompt created for the customer (**Janet Thomas**).<br/>B. Click the **Apply** button.|
+| **Action** &nbsp; 6.6 | Review the prompt then scroll to the bottom of the chat window to review the input for the generative AI model.<br/><img src="images/Script-6-6.png" width="800" />|
+| **Action** &nbsp; 6.7 |Perform the following steps:<br/><br/>A. Review the prompt created for the customer (**Janet Thomas**).<br/>B. Click the **Apply** button.<br/><img src="images/Script-6-7.png" width="800" />|
 | **Narration** | The response created for the customer (Janet Thomas) is returned and displayed. The customer email address, subject and email body are pre-filled, allowing the user to review the generated content for accuracy and add any further information to ensure the proposal is relevant to the customer. |
-| **Action** &nbsp; 6.8 | Review the generated email. |
+| **Action** &nbsp; 6.8 | Review the generated email. <br/><img src="images/Script-6-8.png" width="800" />|
 
 
 <br/>
@@ -274,10 +274,10 @@ By providing a catalog of skills, watsonx Orchestrate eliminated the need for th
 <br/>
 
 The watsonx Orchestrate environment used for the demo is shared by many users. After completing your demo, it is important to take a few minutes to remove any skills or automations you created during the demo. 
-1. Click the **hamburger navigation** menu icon **(A)**, then click on **Skills and apps (B)** from the left menu.
-2. Select **Skills (A)**, enter your unique reference, then press **Enter (B)**. After completing this demo there should be three skills. Click the ellipsis (three vertical dots) in the right-hand column for each skill **(C)** and select **Delete this skill (D)**. Take care to ensure you are only deleting your skills.
-3. Click the **hamburger navigation** menu icon **(A)**, then click on **Automations (B)** from the left menu.
-4. Enter your skill reference in the search panel and press **Enter (A)**. Click the ellipsis (three vertical dots) **(B)** and select **Delete (C)**.
+1. Click the **hamburger navigation** menu icon **(A)**, then click on **Skills and apps (B)** from the left menu.<br/><img src="images/Script-8-1.png" width="800" />
+2. Select **Skills (A)**, enter your unique reference, then press **Enter (B)**. After completing this demo there should be three skills. Click the ellipsis (three vertical dots) in the right-hand column for each skill **(C)** and select **Delete this skill (D)**. Take care to ensure you are only deleting your skills.<br/><img src="images/Script-8-2.png" width="800" />
+3. Click the **hamburger navigation** menu icon **(A)**, then click on **Automations (B)** from the left menu.<br/><img src="images/Script-8-3.png" width="800" />
+4. Enter your skill reference in the search panel and press **Enter (A)**. Click the ellipsis (three vertical dots) **(B)** and select **Delete (C)**.<br/><img src="images/Script-8-4.png" width="800" />
 
 <br/>
 
