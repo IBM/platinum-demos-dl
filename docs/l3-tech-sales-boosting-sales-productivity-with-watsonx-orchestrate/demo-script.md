@@ -14,7 +14,7 @@ outputtomarketing: 4
 
 <details markdown="1">
 
-<summary>1 - Introduction</summary>
+<summary>1 – Introduction</summary>
 
 This demo shows you how to present watsonx Orchestrate’s the core capabilities and its value proposition using a business scenario set in an insurance sales office. You’ll see how individual skills are used, take a brief look at decision automation, then implement an upsell process for a hypothetical insurance brokerage by combing skills together into a sequence called a skill flow.
 
@@ -53,7 +53,7 @@ Let’s get started.
 <details markdown="1">
 
 
-<summary>2 - Review individual kills </summary>
+<summary>2 – Review individual kills </summary>
 
 <br/>
 
@@ -98,7 +98,7 @@ Let’s get started.
 <span id="spanID"></span>
 <details markdown="1">
 
-<summary>3 - Explore decision automation </summary>
+<summary>3 – Explore decision automation </summary>
 
 <br/>
 
@@ -129,7 +129,7 @@ Let’s get started.
 <span id="spanID"></span>
 <details markdown="1">
 
-<summary>4 - Combining skills into skill flows </summary>
+<summary>4 – Combining skills into skill flows </summary>
 
 <br/>
 
@@ -204,7 +204,7 @@ Let’s get started.
 <span id="spanID"></span>
 <details markdown="1">
 
-<summary>5 - Saving and publishing the skill flow </summary>
+<summary>5 – Saving and publishing the skill flow </summary>
 
 <br/>
 
@@ -233,7 +233,7 @@ Let’s get started.
 <span id="spanID"></span>
 <details markdown="1">
 
-<summary>6 - Using the skill flow </summary>
+<summary>6 – Using the skill flow </summary>
 
 <br/>
 
@@ -262,7 +262,7 @@ Let’s get started.
 <span id="spanID"></span>
 <details markdown="1">
 
-<summary>7 - Summary </summary>
+<summary>7 – Summary </summary>
 
 <br/>
 
@@ -283,7 +283,7 @@ By providing a catalog of skills, watsonx Orchestrate eliminated the need for th
 <span id="spanID"></span>
 <details markdown="1">
 
-<summary>8 - After your demo </summary>
+<summary>8 – After your demo </summary>
 
 <br/>
 
