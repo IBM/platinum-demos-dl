@@ -21,7 +21,7 @@ banner: images/Prep-banner.png
 <details markdown="1">
 
 <summary>1 –  Access the demo environment (IBMers)</summary>
-This demo can be performed on any tenant where the user has the builder role. For new watsonx Orchestrate users, request access by submitting a request here. You will receive an email once you have been onboarded onto a suitable tenant, but please allow 48 hours for your request to be processed.
+This demo can be performed on any tenant where the user has the builder role. For new watsonx Orchestrate users, request access by submitting a request <a href="https://forms.monday.com/forms/dc4f2e5c205f756bee82204f8b57705d?r=use1" target="_blank" rel="noreferrer">here</a>. You will receive an email once you have been onboarded onto a suitable tenant, but please allow 48 hours for your request to be processed.
 
 Based on your role and requirements, you will be onboarded onto a sales demonstration tenant or an enablement tenant. Enablement tenants provide short-term access (two week maximum) for enablement purposes.
 
