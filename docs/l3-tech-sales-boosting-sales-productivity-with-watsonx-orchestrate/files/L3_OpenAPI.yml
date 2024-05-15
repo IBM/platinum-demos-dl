@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
   title: CRM
-  description:
+  description: CRM
   version: '1.0'
   x-ibm-application-icon: <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 52.18"><text transform="translate(0 40.18)" style="fill:#2e3192; font-family:MyriadPro-Regular, &apos;Myriad Pro&apos;; font-size:48px;"><tspan x="0" y="0">L3</tspan></text></svg>
 servers:
