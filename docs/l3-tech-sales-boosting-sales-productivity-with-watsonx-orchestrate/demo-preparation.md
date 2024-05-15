@@ -125,7 +125,7 @@ Use a code editor (Microsoft VSCode is recommended) to edit the OpenAPI file by 
 30. Enter a name for the customer into the **name** field; for example, **“James” (A)**, then click **Apply (B)** to submit the form for processing. <inline-notification text="If a name is not provided an error will be shown."></inline-notification>  <img src="images/Prep-4-30.png" width="800" /><br/><br/>
 31. The decision model returns the default prompt. Preparation for this decision model is now complete. <br/><img src="images/Prep-4-31.png" width="800" /><br/><br/>
 32. Clear the output from the chat window by clicking the **broom** icon.  <br/><img src="images/Prep-4-32.png" width="800" /><br/><br/>
-33. Select the **checkbox (A)** then click **Clear history (B)**. <img src="images/Prep-4-33.png" width="800" /><br/><br/>
+33. Select the **checkbox (A)** then click **Clear history (B)**.<br/> <img src="images/Prep-4-33.png" width="800" /><br/><br/>
 
 **[Go to top](#top)**
 
