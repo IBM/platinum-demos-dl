@@ -59,7 +59,7 @@ This demo uses a decision model and skills based on OpenAPI specifications. As t
 1.	Download the decision model file:  <a href="./files/L3_Upsell_Master.zip" target="_blank" rel="noreferrer">L3_Upsell_Master.zip</a>. 
 2.	Open a **Terminal** window at the download location.
 3.	Enter the following command to unzip the decision model, this creates a directory called **L3_Upsell_Master**:<br/><code> unzip L3_Upsell_Master.zip </code>
-4. Rename the top-level directory adding your initials combined with today’s date to ensure that your project name is unique as shown in this example:<br/><code>mv L3_Upsell_Master L3_Upsell_XXddmmyy</code><br/> <inline-notification text="The top-level directory name will determine the name of your decision project once it is imported."></inline-notification>
+4. Rename the top-level directory adding your initials combined with today’s date to ensure that your project name is unique as shown in this example:<br/><code>mv L3_Upsell L3_Upsell_XXddmmyy</code><br/> <inline-notification text="The top-level directory name will determine the name of your decision project once it is imported."></inline-notification>
 5.	Compress your renamed folder using the following command as an example.<br> <code>zip -r L3_Upsell_XXddmmyy.zip L3_Upsell_XXddmmyy  </code>
 
 ### 3.2 – Windows: prepare the decision model archive file
@@ -70,7 +70,7 @@ Windows does not include a built-in utility for working with zip files. The exam
 1.	Download the decision model file: <a href="./files/L3_Upsell_Master.zip" target="_blank" rel="noreferrer">L3_Upsell_Master.zip</a>.
 2.	Open a Command Prompt at the download location.
 3.	Enter the following command to unzip the decision model, this creates a directory called L3_Upsell_Master<br/><code> 7z x L3_Upsell_Master.zip </code>
-4.	Rename the top-level directory adding your initials combined with today’s date to ensure that your project name is unique as shown in this example:<br/> <code>ren L3_Upsell_Master L3_Upsell_XXddmmyy</code> <inline-notification text="The top level directory name will determine the name of your decision project once it is imported."></inline-notification>
+4.	Rename the top-level directory adding your initials combined with today’s date to ensure that your project name is unique as shown in this example:<br/> <code>ren L3_Upsell L3_Upsell_XXddmmyy</code> <inline-notification text="The top level directory name will determine the name of your decision project once it is imported."></inline-notification>
 5.	Compress your renamed folder using the following command as an example:<br/><code>7z a -r L3_Upsell_XXddmmyy.zip L3_Upsell_XXddmmyy</code>
 
 ### 3.3 – Prepare OpenAPI files
