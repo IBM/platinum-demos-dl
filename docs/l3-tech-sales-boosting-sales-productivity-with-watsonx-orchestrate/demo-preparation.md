@@ -167,7 +167,7 @@ From the skills catalog, add the built in ‘Generate an email’ skill, require
 2. Type **“watsonx”** into the **Search field (A)** (the field with the magnifying glass), press **Enter** key, then click on the **App tile (B)**.<br/><img src="images/Prep-6-2.png" width="800" /><br/><br/>
 3. In the top-right corner of the screen, click **Connect app**.<br/><img src="images/Prep-6-3.png" width="800" /><br/><br/>
 4. Enter a **Bearer Token (A)** (any value will work), then click **Connect app (B)**.<br/><img src="images/Prep-6-4.png" width="800" /><br/><br/>
-5. Click **Add skill +** on the **Generate an email** tile **(A)**. A message will appear to confirm the skill has been added.<br/><img src="images/Prep-4-5.png" width="800" /><br/><br/>
+5. Click **Add skill +** on the **Generate an email** tile **(A)**. A message will appear to confirm the skill has been added.<br/><br/>
  
 **[Go to top](#top)**
 
