@@ -51,7 +51,7 @@ Let’s get started.
 <details markdown="1">
 
 
-<summary>2 – Review individual kills </summary>
+<summary>2 – Review individual skills </summary>
 
 <br/>
 
