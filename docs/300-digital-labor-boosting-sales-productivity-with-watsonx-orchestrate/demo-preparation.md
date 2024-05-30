@@ -12,6 +12,7 @@ banner: images/Prep-banner.png
 
 | **DEMO OVERVIEW** | | 
 | :---         | :--- |
+| **Demo sunset** | **This version of the demo is being sunset.** Please use the [latest version of this demo](../l3-tech-sales-boosting-sales-productivity-with-watsonx-orchestrate/demo-preparation).|
 | **Scenario overview** | This demo shows how watsonx Orchestrate can be used by sales representatives to assist with the upsell / cross-sell process. To illustrate this, an insurance seller uses watsonx Orchestrate to retrieve a list of customers from Salesforce and automatically send a customized offer. Developers, called ‘builders’ in watsonx Orchestrate, create the customized skills used by the agents. |
 | **Demo products** | watsonx Orchestrate |
 | **Demo capabilities** | Salesforce skill; watsonx.ai generative AI skill; Microsoft Outlook skill; Embedded decision engine skill|

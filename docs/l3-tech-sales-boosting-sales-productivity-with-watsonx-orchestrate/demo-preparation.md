@@ -8,6 +8,8 @@ banner: images/Prep-banner.png
 
 <span id="top"></span>
 
+<inline-notification text="<strong><strong>Attention: Safari users.</strong> Please use Firefox or Chrome to do this demo."></inline-notification>
+
 | **DEMO OVERVIEW** | | 
 | :---         | :--- |
 | **Scenario overview** | This demo shows how watsonx Orchestrate implements complex operations by combining individual skills together by using a skill flow. <br/><br/> In this demo, you will create customized skills in watsonx Orchestrate and assemble them together to create a skill-flow that implements an upsell/cross-sell process to assist insurance sellers with their email marketing. |
