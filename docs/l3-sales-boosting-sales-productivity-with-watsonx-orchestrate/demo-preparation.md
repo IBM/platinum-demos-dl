@@ -31,7 +31,7 @@ Once you have received your onboarding email, use your IBM intranet ID to log in
 
 **Cannot find the demo or skills?**
 
-If you are an existing watsonx Orchestrate user but you cannot see the skills needed to run this demo (they are represented as cards at the bottom of the watsonx Orchestrate screen), please ensure you are in the **Team skills** view. When you log into watsonx Orchestrate, the default view is **Personal skills**. To run this demo, change the view to **Team skills**.<br/><img src="images/prep-1-2-teamskills.jpg" width="600" /> <br/>
+If you are an existing watsonx Orchestrate user but you cannot see the skills needed to run this demo (they are represented as cards at the bottom of the watsonx Orchestrate screen), please ensure you are in the **Team skills** view. When you log into watsonx Orchestrate, after clicking the **'Try skills in the chat ->'** black button, the default view is **Personal skills**. To run this demo, change the view to **Team skills**.<br/><img src="images/prep-1-2-teamskills.jpg" width="600" /> <br/>
 
 If you are an existing watsonx Orchestrate user and still cannot see the skills required for this demo, please request access to a suitable tenant by submitting a <a href="https://ibm.biz/OrchestrateRequestEnv" target="_blank" rel="noreferrer">request here</a>. You will receive an email once you have been onboarded onto a suitable tenant, but please allow 48 hours for your request to be processed.<br/> 
 
@@ -58,7 +58,7 @@ Once you have received your onboarding email, use your IBM ID to log into your a
 
 <summary>Prepare to give the demo</summary>
 
-When you log into watsonx Orchestrate, the default view is **Personal skills**. To run the demo, change the view to **Team skills**.<br/><img src="images/prep-1-2-teamskills.jpg" width="800"/><br/>
+When you log into watsonx Orchestrate, click the **'Try skills in the chat ->'** black button to access the default view where **Personal skills** is selected. To run the demo, change the view to **Team skills**.<br/><img src="images/prep-1-2-teamskills.jpg" width="800"/><br/>
 
 The **skills** required to run this demo are shown at the bottom of the watsonx Orchestrate screen. (If you do not see these skills, check you are in the **Team skills** view).<br/><img src="images/prep-skill-cards.png" width="800"/> <br/>
 
