@@ -95,9 +95,10 @@ Use a code editor (Microsoft VSCode is recommended) to edit the OpenAPI file by 
 <details markdown="1">
 <summary>4 – Import the decision model</summary>
 
-1.	From the watsonx Orchestrate home page click Automations. 
-2. Click Create automation.
-3. Perform the following steps:<br/>A. Select **Import automation**,<br/>B. Click **Browse**. <br/><img src="images/Prep-4-3.png" width="800" /><br/><br/>
+1. From the watsonx Orchestrate home page click the **Skill studio** tile.
+2. Select the **Automaion** tab
+3. Click **Create automation**.
+4. Perform the following steps:<br/>A. Select **Import automation**,<br/>B. Click **Browse**. <br/><img src="images/Prep-4-3.png" width="800" /><br/><br/>
 4. Use the file browser to select the zip file **L3_Upsell_XXddmmyy.zip** that you created earlier and click **Open**. <inline-notification text="Ensure you select the updated zip file, the directory will contain the original zip file and the expanded directory."></inline-notification><img src="images/Prep-4-4.png" width="800" /><br/><br/>
 5. Click **Import** to open the decision model.<br/><img src="images/Prep-4-5.png" width="800" /><br/><br/>
 6. Select the **Operations** tab from the top.<br/><img src="images/Prep-4-6.png" width="800" /><br/><br/>
