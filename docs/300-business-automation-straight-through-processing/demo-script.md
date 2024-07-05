@@ -45,11 +45,11 @@ Let’s get started.
 
 </details>
 <span id="spanID"></span>
-<details markdown="1">
 <a id="workplace"></a>
-<summary>2 - Executing the workflow without straight-through processing </summary><br/>
+<details markdown="1">
 
-<inline-notification text="The first part of this section is for <strong>Workplace only</strong>. For <strong>Process Portal</strong>, please go <a href'#saas'>here</a>."></inline-notification>
+<summary>2 - Executing the workflow without straight-through processing</summary><br/>
+<inline-notification text="The first part of this section is for <strong>Workplace only</strong>. For <strong>Process Portal</strong>, please go <a href'#saas'>here</a>."></inline-notification><br/>
 
 | **2.1** | **Task management and execution (Workplace)** |
 | :--- | :--- |
@@ -60,13 +60,11 @@ Let’s get started.
 | **Narration** | Once I open the task, I will have all the information needed to investigate the refund. |
 | **Action** &nbsp; 2.1.3 | Click **Approve Refund**. <br/> <img src="./images/Step_2.1_ROKS_action_5.png" width="800" /> |
 | **Narration** | Let’s review the request data and make an approval decision. Behind the scenes, the refund process is managed by workflow. Once the investigation task is completed, the system automatically updates Focus Corp’s ordering application and notifies the customer. <br/> <br/> Although the process is managed by workflow, there is currently no straight-through processing since every request must be examined by a customer service agent. Let’s go back to the process diagram and see how we can improve things with straight-through processing. |
-<br/>
-<a id="saas"></a>
-
 
 <span id="spanID"></span>
+<a id="saas"></a>
 <details markdown="1">
-
+The customer service agent uses Workplace to work on their tasks. It is also used to launch processes and view the process dashboards.
 <summary>2a - Executing the workflow without straight-through processing (Process Portal only) </summary><br/>
 
 <inline-notification text="This section is for <strong>Process Portal only</strong>. For <strong>Workplace</strong>, return to the <a href='#workplace'>top of section 2</a>."></inline-notification>
