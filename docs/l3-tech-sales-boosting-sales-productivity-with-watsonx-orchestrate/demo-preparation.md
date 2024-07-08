@@ -95,10 +95,9 @@ Use a code editor (Microsoft VSCode is recommended) to edit the OpenAPI file by 
 <details markdown="1">
 <summary>4 – Import the decision model</summary>
 
-1. From the watsonx Orchestrate home page click the **Skill studio** tile.
-2. Select the **Automaion** tab
-3. Click **Create automation**.
-4. Perform the following steps:<br/>A. Select **Import automation**,<br/>B. Click **Browse**. <br/><img src="images/Prep-4-3.png" width="800" /><br/><br/>
+1. From the watsonx Orchestrate home page click the **Skill studio** tile.<br/><img src="images/Prep-4-1.png" width="800" /><br/><br/>
+2. Click **Create skill (A)** then **click Automation (B)**.<br/><img src="images/Prep-4-2.png" width="800" /><br/><br/>
+3. Perform the following steps:<br/>A. Select **Import automation**,<br/>B. Click **Browse**. <br/><img src="images/Prep-4-3.png" width="800" /><br/><br/>
 4. Use the file browser to select the zip file **L3_Upsell_XXddmmyy.zip** that you created earlier and click **Open**. <inline-notification text="Ensure you select the updated zip file, the directory will contain the original zip file and the expanded directory."></inline-notification><img src="images/Prep-4-4.png" width="800" /><br/><br/>
 5. Click **Import** to open the decision model.<br/><img src="images/Prep-4-5.png" width="800" /><br/><br/>
 6. Select the **Operations** tab from the top.<br/><img src="images/Prep-4-6.png" width="800" /><br/><br/>
@@ -115,9 +114,9 @@ Use a code editor (Microsoft VSCode is recommended) to edit the OpenAPI file by 
 17. Select the **Publish** tab. <br/><img src="images/Prep-4-17.png" width="800" /><br/><br/>
 18. Expand the **twisty (A)** in the publish section to show the details of **Version 1.0.0**, then click **Publish (B)**. <br/><img src="images/Prep-4-18.png" width="800" /><br/><br/>
 19. When the **Publish automation** window opens, click **Publish**. <br/><img src="images/Prep-4-19.png" width="800" /><br/><br/>
-20. Click the **hamburger navigation** menu icon **(A)**, then select **Skills and Apps (B)** from the left menu. <br/><img src="images/Prep-4-20.png" width="800" /><br/><br/>
+20. Click the **hamburger navigation** menu icon **(A)**, then select **Skills studio (B)** from the left menu. <br/><img src="images/Prep-4-20.png" width="800" /><br/><br/>
 21. If the **Learn to add and enhance skills** window opens, you can simply close it by clicking **Skip tour**.  <br/><img src="images/Prep-4-21.png" width="800" /><br/><br/>
-22. Select the **Skills tab (A)**, enter the unique name given to your decision model in the **search field (B)**, then press **Enter**. <br/><img src="images/Prep-4-22.png" width="800" /><br/><br/>
+22. Select the **Skills and apps tab (A)**, then select **Skills (B)**, then enter the unique name given to your decision model in the **search field (C)**, then press **Enter**. <br/><img src="images/Prep-4-22.png" width="800" /><br/><br/>
 23. Locate the skill created by publishing your decision model and click the **ellipsis** (three vertical dots) **(A)** that correspond to the model, then select **Enhance this skill (B)**. <br/><img src="images/Prep-4-23.png" width="800" /><br/><br/>
 24. When the **Enhance this skill window opens**, click **Publish**.<br/><img src="images/Prep-4-24.png" width="800" /><br/><br/>
 25. A message should appear on the top right-hand side of the screen that says **Published successful**.  Click the **navigation hamburger** menu icon **(A)**, and then select **Skills catalog (B)** from the left menu.<br/><img src="images/Prep-4-25.png" width="800" /><br/><br/>
@@ -140,12 +139,12 @@ Use a code editor (Microsoft VSCode is recommended) to edit the OpenAPI file by 
 <summary>5 – Create the OpenAPI CRM skill</summary>
 Using the OpenAPI file that you previously updated, create the CRM skill required for this demo.
 
-1. Click the **navigation hamburger** menu icon **(A)**, then select **Skills and apps (B)** in the **Build** section from the left menu.<br/><img src="images/Prep-5-1.png" width="800" /><br/><br/>
-2. Select the **Skills tab (A)**, then click **Add skills (B)**.<br/><img src="images/Prep-5-2.png" width="800" /><br/><br/>
+1. Click the **navigation hamburger** menu icon **(A)**, then select **Skill studio (B)** in the **Build** section from the left menu.<br/><img src="images/Prep-5-1.png" width="800" /><br/><br/>
+2. Click **Create skill (A)**, then click **Import API (B)**.<br/><img src="images/Prep-5-2.png" width="800" /><br/><br/>
 3. Select the **From file tab (A)** and in the **Import a skill** file section, click on **Drag and drop files here or click to upload** link **(B)**.<br/><img src="images/Prep-5-3.png" width="800" /><br/><br/>
 4. Select your modified OpenAPI file and click **Next**.<br/><img src="images/Prep-5-4.png" width="800" /><br/><br/><inline-notification text="If you encounter an error at this step, check the operationId in your OpenAPI file doesn't contain spaces. Refer back to section 3 for an example of how to set the operationId."></inline-notification>
 5. In the **Choose skills section**, select the checkbox for the skill **(A)**, then on the bottom-right corner of the screen, click **Add (B)**.  <inline-notification text=" A message should appear on the top right-hand side of the screen indicating that the skill was successfully added."></inline-notification> <img src="images/Prep-5-5.png" width="800" /><br/><br/>
-6. Select the **Skills** tab.<br/><img src="images/Prep-5-6.png" width="800" /><br/><br/>
+6. Select the **Skills and apps tab (A)**, then select **Skills (B)**.<br/><img src="images/Prep-5-6.png" width="800" /><br/><br/>
 7. Perform the following steps: <br/>A. Enter the unique reference given to your skill when you were updating the file into the filter panel, then press **Enter**. <br/>B. Locate the skill **Get Customers with recent life events** and click the ellipsis (three vertical dots) in the right-hand column. <br/>C. Click **Enhance this skill**.<br/><img src="images/Prep-5-7.png" width="800" /><br/><br/>
 8. At the bottom right-hand side of the screen, click **Publish**.<br/><img src="images/Prep-5-8.png" width="800" /><br/><br/>
 9. Click the **navigation hamburger** menu icon **(A)**, then select **Skills catalog (B)** from the left menu.<br/><img src="images/Prep-5-9.png" width="800" /><br/><br/>
