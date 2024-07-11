@@ -27,7 +27,7 @@ This demo can be performed on any tenant where the user has the builder role. Fo
 
 Based on your role and requirements, you will be onboarded onto a sales demonstration tenant or an enablement tenant. Enablement tenants provide short-term access (two week maximum) for enablement purposes.
 
-Once you have received your onboarding email, use your IBM ID to log into your assigned tenant here.
+Once you have received your onboarding email, use your IBM ID to log into your assigned tenant <a href="https://dl.watson-orchestrate.ibm.com/home" target="_blank" rel="noreferrer">here</a>.
 
 Users with access to multiple tenants (demo environments) should ensure they select a tenant where they have the Builder role. Please use the <a href="https://ibm.enterprise.slack.com/archives/C06HT5PHLN9" target="_blank" rel="noreferrer">#ba-techlcd-support</a>  Slack channel if you require assistance.
 
