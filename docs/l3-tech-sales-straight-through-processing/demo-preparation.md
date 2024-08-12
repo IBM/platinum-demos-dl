@@ -121,7 +121,7 @@ In this step, you will you will open the **Refund Request dashboard** in a new t
 
 <span id="importFlow"></span>
 <details markdown="1">
-<summary>5 - Import ADS Decision Model</summary>
+<summary>5 - Import and open decision model</summary>
 
 You will use a new browser tab to open Business Automation Studio.
 

@@ -141,18 +141,18 @@ Let’s get started.
 | **6.1** | **Review the refund approval decision model** |
 | :--- | :--- |
 | **Narration** | Let’s look at how the business analyst can create and manage business rules to further increase straight-through processing. The business rules replicate how experts make refund decisions. <br/> <br/> Using no-code decision modeling, business analysts can easily author and test refund decision criteria. This is the decision model for the refund request decision service. A decision model uses a diagram to break the decision (the top blue box) down into sub-decisions (additional blue boxes) and input data (green ovals), which all contribute to the final refund decision. |
-| **Action** &nbsp; 6.1.1 | Go to your **Automation Decision Services** tab that you opened during your preparation. <br/> <img src="./images/Script6.1.1.png" width="800" /><br/> |
+| **Action** &nbsp; 6.1.1 | Go to your **Refund Processing** decision modelling tab that you opened during your preparation. <br/> <img src="./images/Script6.1.1.png" width="800" /><br/> |
 
 
 | **6.2** | **Review the decision tables** |
 | :--- | :--- |
-| **Narration** | To partially automate the refund request process, we’ve used two main decision tables. A decision table groups rules with similar conditions and actions but use different thresholds or values. |
+| **Narration** | To partially automate the refund request processing, we’ve used two main decision tables. A decision table groups rules with similar conditions and actions but use different thresholds or values. |
 | **Action** &nbsp; 6.2.1 | Click **Validate Time Window** in the decision diagram. <br/> <img src="./images/Script6.2.1.png" width="800" /><br/> |
 | **Action** &nbsp; 6.2.2 | Click **Logic (A)**, then click **Validate Time Window (B)**.  <br/> <img src="./images/Script6.2.2.png" width="800" /><br/> |
-| **Narration** | The first decision table considers the customer’s reason for return, the days since order, and the condition of the item. These are the same criteria that a customer service agent would use to make a refund request decision, but now the decision is automated and executes in real time. |
+| **Narration** | The first decision table considers the customer’s reason for return, the days since order, and the condition of the item. These are the same criteria that a customer service agent would use to make a refund decision, but now the decision is automated and executes in real time. |
 | **Action** &nbsp; 6.2.3 | Click **Back to the diagram**. <br/> <img src="./images/Script6.2.3.png" width="800" /><br/> |
 | **Action** &nbsp; 6.2.4 | Click **Validate Type of Goods (A)**, **Logic (B)**, then click **Validate Type of Goods (C)**. <br/> <img src="./images/Script6.2.4.png" width="800" /><br/> |
-| **Narration** | The second sub-decision has a table that considers the type of item being returned together with its condition. |
+| **Narration** | The second sub-decision has a table that considers the type of item being returned, and its condition. |
 | **Action** &nbsp; 6.2.5 | Click **Back to the diagram**. <br/> <img src="./images/Script6.2.5.png" width="800" /><br/> |
 
 | **6.3** | **Make the final refund decision** |
@@ -180,7 +180,7 @@ Let’s get started.
 
 | **7.2** | **Update the business logic** |
 | :---         | :--- |
-| **Narration** | It has been determined that refund requests will now be denied when the following conditions are met:<br/><br/> - refund reason is “no longer needed”<br/> - number of days since the order was delivered is greater than 7<br/> - goods condition is “worn or damaged”<br/><br/> |
+| **Narration** | It has been determined that refund requests will now be denied when **all of the following conditions** are met:<br/><br/> - the refund reason is “no longer needed”<br/> - the number of days since the order was delivered is greater than 7<br/> - the goods condition is “worn or damaged”<br/><br/> If all of these conditions are met, the refund will be denied.|
 | **Action** &nbsp; 7.2.1 | Select the **Modeling** tab. <br/> <img src="./images/Script7.2.1.png" width="800" /><br/> |
 | **Action** &nbsp; 7.2.2 | Click the **Validate Time Window** decision node **(A)**, click **Logic (B)**, then click **Validate Time Window (C)**.  <br/> <img src="./images/Script7.2.2.png" width="800" /><br/> |
 | **Narration** | In this decision table, the rules are checked in sequence, starting at the top on row 1. If none of the rows match the data in the refund request, the “Otherwise” rule on row 8 will apply and the decision table will return “approved”.<br/><br/>Currently, cases in which the goods are worn, but no longer needed result in manual processing. A new rule will be inserted into the decision table to deny refunds where the goods are worn, no longer needed, and more than 7 days have passed since delivery. In cases where less than 7 days have passed, the existing rule will apply, resulting in manual processing.<br/>|
@@ -194,10 +194,10 @@ Let’s get started.
 | **7.3** | **Test the new business logic** |
 | :---         | :--- |
 | **Action** &nbsp; 7.3.1 | Click **Run**. <br/> <img src="./images/Script7.3.1.png" width="800" /><br/> |
-| **Narration** | The Manual test case previously returned the result “Manual”. <br/><br/>Now that the logic has been changed, this test case with daysSinceOrderDelivered set at 22, should trigger the new logic. <br/> |
+| **Narration** | The Manual test case previously returned the result “Manual”. <br/><br/>Now that the logic has been changed, the result of this test will be "denied". The rules in the decision table are applied in sequence, so initially the rule on row 3 will set the result to be "manual", but this will be superseded by the new rule on row 4. None of the other rule in the decision table will match the conditions of the refund, so the result from row 4 will be final. <br/> |
 | **Action** &nbsp; 7.3.2 | Select the **Manual** test data **(A)** (this previously produced the result “Manual”). Click **Run (B)**, then note the updated result **“Denied” (C)**. <br/> <img src="./images/Script7.3.2.png" width="800" /><br/> |
 | **Action** &nbsp; 7.3.3 | Modify the **daysSinceOrderDelivered** value, enter **6 (A)**, then click **Run (B)**. Note the updated result **“Manual” (C)**. <br/> <img src="./images/Script7.3.3.png" width="800" /><br/> |
-| **Narration** | Now that the business logic has been updated, a new version of the decision service could be deployed into production. Systems that consume the decision service would benefit immediately, automatically, and without interruption.   <br/> |
+| **Narration** | By changing the value of days since delivered attribute in the test data, the new rule won't match the refund, and the old rule will be the only rule to match.<br/><br/> Now that the business logic has been updated, a new version of the decision service could be deployed into production. Systems that consume the decision service would benefit immediately, automatically, and without an interruption to the service.   <br/> |
 
 **[Go to top](#top)**
 
