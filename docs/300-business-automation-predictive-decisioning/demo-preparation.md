@@ -155,7 +155,7 @@ After logging into GitHub:
 <br/><img src="images/Prep28.png" width="800" /><br/>
 13. Type **'Object'** (1) in the search field and then select **Object Storage** (2).
 <br/><img src="images/Prep29.png" width="800" /><br/>
-14. Select **IBM Cloud** (1). Choose the **Lite** plan (2) and click **Create** (3).
+14. Select **IBM Cloud** (1). Choose the **Standard** plan (2) and click **Create** (3).
 <br/><img src="images/Prep30.png" width="800" /><br/>
 15. Expand the **top menu** (1) and then select **Resource list** (2).
 <br/><img src="images/Prep31.png" width="800" /><br/>
