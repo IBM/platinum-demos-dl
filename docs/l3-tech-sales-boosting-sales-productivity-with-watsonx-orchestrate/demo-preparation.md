@@ -96,38 +96,30 @@ Use a code editor (Microsoft VSCode is recommended) to edit the OpenAPI file by 
 <summary>4 – Import the decision model</summary>
 
 1. From the watsonx Orchestrate home page click the **Skill studio** tile.<br/><img src="images/Prep-4-1.png" width="800" /><br/><br/>
-2. Click **Create skill (A)** then **click Automation (B)**.<br/><img src="images/Prep-4-2.png" width="800" /><br/><br/>
-3. Perform the following steps:<br/>A. Select **Import automation**,<br/>B. Click **Browse**. <br/><img src="images/Prep-4-3.png" width="800" /><br/><br/>
+2. Click **Create (A)** then click **Project (B)**.<br/><img src="images/Prep-4-2.png" width="800" /><br/><br/>
+3. Perform the following steps:<br/>A. Select **Import project**,<br/>B. Click **Browse**. <br/><img src="images/Prep-4-3.png" width="800" /><br/><br/>
 4. Use the file browser to select the zip file **L3_Upsell_XXddmmyy.zip** that you created earlier and click **Open**. <inline-notification text="Ensure you select the updated zip file, the directory will contain the original zip file and the expanded directory."></inline-notification><img src="images/Prep-4-4.png" width="800" /><br/><br/>
 5. Click **Import** to open the decision model.<br/><img src="images/Prep-4-5.png" width="800" /><br/><br/>
-6. Select the **Operations** tab from the top.<br/><img src="images/Prep-4-6.png" width="800" /><br/><br/>
-7. Click **Create operation**. <br/><img src="images/Prep-4-7.png" width="800" />
-8. Enter a unique **Operation name** into the panel that opens on the right. <inline-notification text="Use an operation name with the same name as your project name to ensure that it is unique. Your project name will already include your initials and today’s date."></inline-notification> <img src="images/Prep-4-8.png" width="800" /><br/><br/>
-9. Click the **Component** drop down and select **Product Upsell (A)**, then click **Save (B)**.<br/><img src="images/Prep-4-9.png" width="800" />
-10. Click **Share changes**.<br><img src="images/Prep-4-10.png" width="800" />
-11. Click **Share**.<br/><img src="images/Prep-4-11.png" width="800" /><br/><br/>
-12. Optionally, enter a comment (for example **“Added operation.”**) then click **Share**. <inline-notification text="In a multi-user environment, this comment would be used to summarize the changes made so that other users can load your changes into their session."></inline-notification>  <img src="images/Prep-4-12.png" width="800" /><br/><br/>
-13. Click the navigation link in the top-left corner to return to your decision model. <inline-notification text="Your link will show the name that you chose for your project, for example <strong>L3_Upsell_XXddmmyy.</strong>"></inline-notification> <img src="images/Prep-4-13.png" width="800" /><br/><br/>
-14. Select on the **History** tab from the top. <br/><img src="images/Prep-4-14.png" width="800" /><br/><br/>
-15. Click on the **Version** link that corresponds to the most recent update in the **View history** table. <br/><img src="images/Prep-4-15.png" width="800" /><br/><br/>
-16. When the **Create a version** window opens, enter **“1.0.0”** in the **Name** field **(A)**, then click **Create (B)**. <br/><img src="images/Prep-4-16.png" width="800" /><br/><br/>
-17. Select the **Publish** tab. <br/><img src="images/Prep-4-17.png" width="800" /><br/><br/>
-18. Expand the **twisty (A)** in the publish section to show the details of **Version 1.0.0**, then click **Publish (B)**. <br/><img src="images/Prep-4-18.png" width="800" /><br/><br/>
-19. When the **Publish automation** window opens, click **Publish**. <br/><img src="images/Prep-4-19.png" width="800" /><br/><br/>
-20. Click the **hamburger navigation** menu icon **(A)**, then select **Skills studio (B)** from the left menu. <br/><img src="images/Prep-4-20.png" width="800" /><br/><br/>
-21. If the **Learn to add and enhance skills** window opens, you can simply close it by clicking **Skip tour**.  <br/><img src="images/Prep-4-21.png" width="800" /><br/><br/>
-22. Select the **Skills and apps tab (A)**, then select **Skills (B)**, then enter the unique name given to your decision model in the **search field (C)**, then press **Enter**. <br/><img src="images/Prep-4-22.png" width="800" /><br/><br/>
-23. Locate the skill created by publishing your decision model and click the **ellipsis** (three vertical dots) **(A)** that correspond to the model, then select **Enhance this skill (B)**. <br/><img src="images/Prep-4-23.png" width="800" /><br/><br/>
-24. When the **Enhance this skill window opens**, click **Publish**.<br/><img src="images/Prep-4-24.png" width="800" /><br/><br/>
-25. A message should appear on the top right-hand side of the screen that says **Published successful**.  Click the **navigation hamburger** menu icon **(A)**, and then select **Skills catalog (B)** from the left menu.<br/><img src="images/Prep-4-25.png" width="800" /><br/><br/>
-26. Enter the unique name given to your decision model in the **Search field (A)** (the field with the magnifying glass), press **Enter** key, then click on the **App tile (B)**. <inline-notification text="This contains the name of your decision project in the format <strong>L3_Upsell_XXddmmyy.</strong>"></inline-notification> <br/><img src="images/Prep-4-26.png" width="800" /><br/><br/>
-27. When your skill appears, click **Add skill** on the tile that corresponds to your decision model. <br/><img src="images/Prep-4-27.png" width="800" /><br/><br/>
-28. Click the **navigation hamburger** menu icon **(A)** and select **Chat (B)** from the left menu. <br/><img src="images/Prep-4-28.png" width="800" /><br/><br/>
-29. Click on the tile corresponding to your recently added skill that contains your decision model name. For example, **L3_Upsell_GB050324**.  <br/><img src="images/Prep-4-29.png" width="800" /><br/><br/><inline-notification text="The skill starts and invokes the decision model."></inline-notification> 
-30. Enter a name for the customer into the **name** field; for example, **“James” (A)**, then click **Apply (B)** to submit the form for processing. <inline-notification text="If a name is not provided an error will be shown."></inline-notification>  <img src="images/Prep-4-30.png" width="800" /><br/><br/>
-31. The decision model returns the default prompt. Preparation for this decision model is now complete. <br/><img src="images/Prep-4-31.png" width="800" /><br/><br/>
-32. Clear the output from the chat window by clicking the **broom** icon.  <br/><img src="images/Prep-4-32.png" width="800" /><br/><br/>
-33. Select the **checkbox (A)** then click **Clear history (B)**.<br/> <img src="images/Prep-4-33.png" width="800" /><br/><br/>
+6. Click the **eye** icon to make the **Product Upsell** skill visible.<br/><img src="images/Prep-4-6.png" width="800" /><br/><br/>
+7. Click **Share changes**.<br><img src="images/Prep-4-7.png" width="800" />
+8. Click **Share**.<br/><img src="images/Prep-4-11.png" width="800" /><br/><br/>
+9. Optionally, enter a comment (for example **“Made skill public.”**) then click **Share**. <inline-notification text="In a multi-user environment, this comment would be used to summarize the changes made so that other users can load your changes into their session."></inline-notification>  <img src="images/Prep-4-12.png" width="800" /><br/><br/>
+10. Click the navigation link in the top-left corner to return to your decision model. <inline-notification text="Your link will show the name that you chose for your project, for example <strong>L3_Upsell_XXddmmyy.</strong>"></inline-notification> <img src="images/Prep-4-13.png" width="800" /><br/><br/>
+11. Select on the **History** tab from the top. <br/><img src="images/Prep-4-14.png" width="800" /><br/><br/>
+12. Click on the **Version** link that corresponds to the most recent update in the **View history** table. <br/><img src="images/Prep-4-15.png" width="800" /><br/><br/>
+13. When the **Create a version** window opens, enter **“1.0.0”** in the **Name** field **(A)**, then click **Create (B)**. <br/><img src="images/Prep-4-16.png" width="800" /><br/><br/>
+14. Select the **Publish** tab. <br/><img src="images/Prep-4-17.png" width="800" /><br/><br/>
+15. Expand the **twisty (A)** in the publish section to show the details of **Version 1.0.0**, then click **Publish (B)**. <br/><img src="images/Prep-4-18.png" width="800" /><br/><br/>
+16. When the **Publish automation** window opens, click **Publish**. <br/><img src="images/Prep-4-19.png" width="800" /><br/><br/>
+17. Click the **navigation hamburger** menu icon **(A)**, and then select **Skills catalog (B)** from the left menu.<br/><img src="images/Prep-4-25.png" width="800" /><br/><br/>
+18. Enter the unique name given to your decision model in the **Search field (A)** (the field with the magnifying glass), press **Enter** key, then click on the **App tile (B)**. <inline-notification text="This contains the name of your decision project in the format <strong>L3_Upsell_XXddmmyy.</strong>"></inline-notification> <br/><img src="images/Prep-4-26.png" width="800" /><br/><br/>
+19. When your skill appears, click **Add skill** on the tile that corresponds to your decision model. <br/><img src="images/Prep-4-27.png" width="800" /><br/><br/>
+20. Click the **navigation hamburger** menu icon **(A)** and select **Chat (B)** from the left menu. <br/><img src="images/Prep-4-28.png" width="800" /><br/><br/>
+21. Click on the tile corresponding to your recently added skill that contains your decision model name. For example, **L3_Upsell_GB050324**.  <br/><img src="images/Prep-4-29.png" width="800" /><br/><br/><inline-notification text="The skill starts and invokes the decision model."></inline-notification> 
+22. Enter a name for the customer into the **name** field; for example, **“James” (A)**, then click **Apply (B)** to submit the form for processing. <inline-notification text="If a name is not provided an error will be shown."></inline-notification>  <img src="images/Prep-4-30.png" width="800" /><br/><br/>
+23. The decision model returns the default prompt. Preparation for this decision model is now complete. <br/><img src="images/Prep-4-31.png" width="800" /><br/><br/>
+24. Clear the output from the chat window by clicking the **broom** icon.  <br/><img src="images/Prep-4-32.png" width="800" /><br/><br/>
+25. Select the **checkbox (A)** then click **Clear history (B)**.<br/> <img src="images/Prep-4-33.png" width="800" /><br/><br/>
 
 **[Go to top](#top)**
 
@@ -140,7 +132,7 @@ Use a code editor (Microsoft VSCode is recommended) to edit the OpenAPI file by 
 Using the OpenAPI file that you previously updated, create the CRM skill required for this demo.
 
 1. Click the **navigation hamburger** menu icon **(A)**, then select **Skill studio (B)** in the **Build** section from the left menu.<br/><img src="images/Prep-5-1.png" width="800" /><br/><br/>
-2. Click **Create skill (A)**, then click **Import API (B)**.<br/><img src="images/Prep-5-2.png" width="800" /><br/><br/>
+2. Click **Create (A)**, then click **Import API (B)**.<br/><img src="images/Prep-5-2.png" width="800" /><br/><br/>
 3. Select the **From file tab (A)** and in the **Import a skill** file section, click on **Drag and drop files here or click to upload** link **(B)**.<br/><img src="images/Prep-5-3.png" width="800" /><br/><br/>
 4. Select your modified OpenAPI file and click **Next**.<br/><img src="images/Prep-5-4.png" width="800" /><br/><br/><inline-notification text="If you encounter an error at this step, check the operationId in your OpenAPI file doesn't contain spaces. Refer back to section 3 for an example of how to set the operationId."></inline-notification>
 5. In the **Choose skills section**, select the checkbox for the skill **(A)**, then on the bottom-right corner of the screen, click **Add (B)**.  <inline-notification text=" A message should appear on the top right-hand side of the screen indicating that the skill was successfully added."></inline-notification> <img src="images/Prep-5-5.png" width="800" /><br/><br/>
