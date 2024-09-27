@@ -27,7 +27,7 @@ This demo is available on several sales demonstration and enablement tenants (de
 
 Based on your role and requirements, you will be onboarded onto a sales demonstration tenant or an enablement tenant. Enablement tenants provide short-term access (two week maximum) for enablement purposes. 
 
-Once you have received your onboarding email, use your IBM intranet ID to log into your assigned tenant <a href="https://dl.watson-orchestrate.ibm.com/home" target="_blank" rel="noreferrer">here</a>. <br/>
+Once you have received your onboarding email, use your IBM intranet ID to log into your assigned tenant <a href="https://dl.watson-orchestrate.ibm.com" target="_blank" rel="noreferrer">here</a>. <br/>
 
 **Cannot find the demo or skills?**
 
@@ -48,7 +48,7 @@ Users with access to multiple tenants (demo environments) should ensure they sel
 
 If you do not have access to a tenant, you can request access by submitting a <a href="https://ibm.biz/OrchestrateRequestEnv" target="_blank" rel="noreferrer">request here</a>. You will receive an email once you have been onboarded onto a suitable tenant, but please allow 48 hours for your request to be processed.<br/><br/>
 
-Once you have received your onboarding email, use your IBM ID to log into your assigned tenant <a href="https://dl.watson-orchestrate.ibm.com/home" target="_blank" rel="noreferrer">here</a>.<br/>
+Once you have received your onboarding email, use your IBM ID to log into your assigned tenant <a href="https://dl.watson-orchestrate.ibm.com" target="_blank" rel="noreferrer">here</a>.<br/>
 
 </details>
 
