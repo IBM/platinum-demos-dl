@@ -8,7 +8,8 @@ banner: images/Prep-banner.png
 
 <span id="top"></span>
 
-<inline-notification text="<strong><strong>Attention: Safari users.</strong> Please use Firefox or Chrome to do this demo."></inline-notification>
+<inline-notification text="<strong>Attention: Safari users.</strong> Please use Firefox or Chrome to do this demo."></inline-notification>
+<inline-notification text="<strong>Attention: Orchestrate Agent chat.</strong> This demo is not supported on tenants that are using agentic chat as admin access is needed for configuration."></inline-notification>
 
 | **DEMO OVERVIEW** | | 
 | :---         | :--- |
