@@ -8,7 +8,7 @@ banner: images/Prep-banner.png
 
 <span id="top"></span>
 
-<inline-notification text="<strong>Attention: Safari users.</strong> Please use Firefox or Chrome to do this demo."></inline-notification>
+<inline-notification text="<strong>Attention: L3 learning plan updates 17th Jan 2025.</strong> This demo will be removed from the L3 learning plan on the 17th of January. Please ensure you are using the new demo available in the learning plan from the 20th of January 2025."></inline-notification>
 <inline-notification text="<strong>Attention: Orchestrate Agent chat.</strong> This demo is not supported on tenants that are using agentic chat as admin access is needed for configuration."></inline-notification>
 
 | **DEMO OVERVIEW** | | 
