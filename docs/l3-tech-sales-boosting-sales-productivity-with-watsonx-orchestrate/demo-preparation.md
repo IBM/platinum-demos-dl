@@ -8,8 +8,8 @@ banner: images/Prep-banner.png
 
 <span id="top"></span>
 
-<inline-notification text="<strong>Attention: L3 learning plan updates 17th Jan 2025.</strong> This demo will be removed from the L3 learning plan on the 17th of January. Please ensure you are using the new demo available in the learning plan from the 20th of January 2025."></inline-notification>
-<inline-notification text="<strong>Attention: Orchestrate Agent chat.</strong> This demo is not supported on tenants that are using agentic chat as admin access is needed for configuration."></inline-notification>
+<inline-notification text="<strong>Attention: L3 learning plan updates 17th Jan 2025.</strong> This demo was removed from the L3 learning plan on the 17th of January. This demo can still be used to complete the learning plan, but the new demo introduces new capabilities such as AI chat, conversational search and AI guided actions."></inline-notification>
+<inline-notification text="<strong>Attention: Orchestrate Agent chat.</strong> This demo is not supported on tenants that are using AI chat as admin access is needed for configuration."></inline-notification>
 
 | **DEMO OVERVIEW** | | 
 | :---         | :--- |
@@ -24,7 +24,7 @@ banner: images/Prep-banner.png
 <details markdown="1">
 
 <summary>1 –  Access the demo environment (IBMers)</summary>
-This demo can be performed on any tenant where the user has the builder role. For new watsonx Orchestrate users, request access by submitting a request <a href="https://forms.monday.com/forms/dc4f2e5c205f756bee82204f8b57705d?r=use1" target="_blank" rel="noreferrer">here</a>. You will receive an email once you have been onboarded onto a suitable tenant, but please allow 48 hours for your request to be processed.
+**Please note, this demo was removed from the L3 learning plan on the 17th January, 2025. The updated demo does not require builder access to a tenant. The onboarding process will remain active to enable completion of the previous release of the learning plan, but you will be contacted to confirm which version of the learning plan you are using**. This demo can be performed on any tenant where the user has the builder role. For new watsonx Orchestrate users, request access by submitting a request <a href="https://forms.monday.com/forms/dc4f2e5c205f756bee82204f8b57705d?r=use1" target="_blank" rel="noreferrer">here</a>. You will receive an email once you have been onboarded onto a suitable tenant, but please allow 48 hours for your request to be processed.
 
 Based on your role and requirements, you will be onboarded onto a sales demonstration tenant or an enablement tenant. Enablement tenants provide short-term access (two week maximum) for enablement purposes.
 

@@ -8,7 +8,7 @@ outputtomarketing: 4
 ---
 
 <span id="top"></span>
-
+<inline-notification text="<strong>Attention: L3 learning plan updates 17th Jan 2025.</strong> This demo was removed from the L3 learning plan on the 17th of January. This demo can still be used to complete the learning plan, but the new demo introduces new capabilities such as AI chat, conversational search and AI guided actions."></inline-notification>
 
 <details markdown="1">
 
