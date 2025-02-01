@@ -23,17 +23,15 @@ banner: images/Prep-banner.png
 
 <summary>Access the demo environment (IBMers)</summary>
 
-This demo is available on several sales demonstration and enablement tenants (demo instances). For new watsonx Orchestrate users, please request access by submitting a request <a href="https://ibm.biz/OrchestrateRequestEnv" target="_blank" rel="noreferrer">here</a>. You will receive an email once you have been onboarded onto a suitable tenant, but please allow 48 hours for your request to be processed.<br/> 
-
-Based on your role and requirements, you will be onboarded onto a sales demonstration tenant or an enablement tenant. Enablement tenants provide short-term access (two week maximum) for enablement purposes. 
-
-Once you have received your onboarding email, use your IBM intranet ID to log into your assigned tenant <a href="https://dl.watson-orchestrate.ibm.com" target="_blank" rel="noreferrer">here</a>. <br/>
+**The L3 course that used this demo has been retired. Access requests received after the 31st of January 2025 will not be processed.** 
 
 **Cannot find the demo or skills?**
 
 If you are an existing watsonx Orchestrate user but you cannot see the skills needed to run this demo (they are represented as cards at the bottom of the watsonx Orchestrate screen), please ensure you are in the **Team skills** view. When you log into watsonx Orchestrate, after clicking the **'Try skills in the chat ->'** black button, the default view is **Personal skills**. To run this demo, change the view to **Team skills**.<br/><img src="images/prep-1-2-teamskills.jpg" width="600" /> <br/>
 
-If you are an existing watsonx Orchestrate user and still cannot see the skills required for this demo, please request access to a suitable tenant by submitting a <a href="https://ibm.biz/OrchestrateRequestEnv" target="_blank" rel="noreferrer">request here</a>. You will receive an email once you have been onboarded onto a suitable tenant, but please allow 48 hours for your request to be processed.<br/> 
+**The L3 course that used this demo has been retired. Access requests received after the 31st of January 2025 will not be processed.** 
+
+<br/> 
 
 Users with access to multiple tenants (demo environments) should ensure they select a tenant that has the demonstration installed. Please use the <a href="https://ibm.enterprise.slack.com/archives/C06HT5PHLN9" target="_blank" rel="noreferrer">#ba-techlcd-support</a> Slack channel if you require assistance. 
 <br/> 
@@ -46,9 +44,7 @@ Users with access to multiple tenants (demo environments) should ensure they sel
 
 <summary>Access the demo environment (Business Partners)</summary>
 
-If you do not have access to a tenant, you can request access by submitting a <a href="https://ibm.biz/OrchestrateRequestEnv" target="_blank" rel="noreferrer">request here</a>. You will receive an email once you have been onboarded onto a suitable tenant, but please allow 48 hours for your request to be processed.<br/><br/>
-
-Once you have received your onboarding email, use your IBM ID to log into your assigned tenant <a href="https://dl.watson-orchestrate.ibm.com" target="_blank" rel="noreferrer">here</a>.<br/>
+**The L3 course that used this demo has been retired. Access requests received after the 31st of January 2025 will not be processed.**  
 
 </details>
 

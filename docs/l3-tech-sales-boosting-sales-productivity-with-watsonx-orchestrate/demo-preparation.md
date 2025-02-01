@@ -24,13 +24,11 @@ banner: images/Prep-banner.png
 <details markdown="1">
 
 <summary>1 –  Access the demo environment (IBMers)</summary>
-**Please note, this demo was removed from the L3 learning plan on the 17th January, 2025. The updated demo does not require builder access to a tenant. The onboarding process will remain active to enable completion of the previous release of the learning plan, but you will be contacted to confirm which version of the learning plan you are using**. <br/><br/>This demo can be performed on any tenant where the user has the builder role. For new watsonx Orchestrate users, request access by submitting a request <a href="https://forms.monday.com/forms/dc4f2e5c205f756bee82204f8b57705d?r=use1" target="_blank" rel="noreferrer">here</a>. You will receive an email once you have been onboarded onto a suitable tenant, but please allow 48 hours for your request to be processed.
+**Please note, this demo was removed from the L3 learning plan on the 17th January, 2025. The updated demo does not require builder access to a tenant. The onboarding process will remain active to enable completion of the previous release of the learning plan, but you will be contacted to confirm which version of the learning plan you are using**. <br/><br/>
 
-Based on your role and requirements, you will be onboarded onto a sales demonstration tenant or an enablement tenant. Enablement tenants provide short-term access (two week maximum) for enablement purposes.
+**After the 31st of January 2025** onboarding requests for this demo will only be processed in exceptional circumstances. Please unenroll  from the learning plan to see the latest version. You may request access to the old demo by submitting a request <a href="https://forms.monday.com/forms/dc4f2e5c205f756bee82204f8b57705d?r=use1" target="_blank" rel="noreferrer">here</a>. You will be contacted to discuss your requirements.
 
 Once you have received your onboarding email, use your IBM ID to log into your assigned tenant <a href="https://dl.watson-orchestrate.ibm.com" target="_blank" rel="noreferrer">here</a>.
-
-Users with access to multiple tenants (demo environments) should ensure they select a tenant where they have the Builder role. Please use the <a href="https://ibm.enterprise.slack.com/archives/C06HT5PHLN9" target="_blank" rel="noreferrer">#ba-techlcd-support</a>  Slack channel if you require assistance.
 
 **[Go to top](#top)**
 
@@ -42,7 +40,7 @@ Users with access to multiple tenants (demo environments) should ensure they sel
 <summary>2 – Access the demo environment (Business Partners)</summary>
 **Please note, this demo was removed from the L3 learning plan on the 17th January, 2025. The updated demo does not require builder access to a tenant. The onboarding process will remain active to enable completion of the previous release of the learning plan, but you will be contacted to confirm which version of the learning plan you are using**. <br/><br/>
 
-If you do not have access to a tenant, you can request access by submitting a request <a href="https://forms.monday.com/forms/dc4f2e5c205f756bee82204f8b57705d?r=use1" target="_blank" rel="noreferrer">here</a>. You will receive an email once you have been onboarded onto a suitable tenant, but please allow 48 hours for your request to be processed.
+**After the 31st of January 2025** onboarding requests for this demo will only be processed in exceptional circumstances. You may request access to the old demo by submitting a request <a href="https://forms.monday.com/forms/dc4f2e5c205f756bee82204f8b57705d?r=use1" target="_blank" rel="noreferrer">here</a>. You will be contacted to discuss your requirements.
 
 Once you have received your onboarding email, use your IBM ID to log into your assigned tenant <a href="https://dl.watson-orchestrate.ibm.com" target="_blank" rel="noreferrer">here</a>.
 
