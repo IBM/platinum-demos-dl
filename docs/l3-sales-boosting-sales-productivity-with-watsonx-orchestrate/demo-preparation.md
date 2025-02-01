@@ -23,13 +23,7 @@ banner: images/Prep-banner.png
 
 <summary>Access the demo environment (IBMers)</summary>
 
-**The L3 course that used this demo has been retired. Access requests received after the 31st of January 2025 will not be processed.** 
-
-**Cannot find the demo or skills?**
-
-If you are an existing watsonx Orchestrate user but you cannot see the skills needed to run this demo (they are represented as cards at the bottom of the watsonx Orchestrate screen), please ensure you are in the **Team skills** view. When you log into watsonx Orchestrate, after clicking the **'Try skills in the chat ->'** black button, the default view is **Personal skills**. To run this demo, change the view to **Team skills**.<br/><img src="images/prep-1-2-teamskills.jpg" width="600" /> <br/>
-
-**The L3 course that used this demo has been retired. Access requests received after the 31st of January 2025 will not be processed.** 
+**The L3 course that used this demo has been retired. Access requests received after the 31st of January 2025 will not be processed.**  
 
 <br/> 
 
