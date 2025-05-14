@@ -1,7 +1,7 @@
 openapi: 3.0.0
 info:
-  title: WxO L3 Services
-  description: WxO L3 Services
+  title: CRM
+  description: CRM
   version: '1.0'
   x-ibm-application-icon: <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 54 52.18"><text transform="translate(0 40.18)" style="fill:#2e3192; font-family:MyriadPro-Regular, &apos;Myriad Pro&apos;; font-size:48px;"><tspan x="0" y="0">L3</tspan></text></svg>
 servers:
@@ -11,9 +11,9 @@ paths:
     get:
       tags:
         - Customers
-      summary: Get a list of customers with recent life events
-      description: Get a list of customers with recent life events
-      operationId: get_customers
+      summary: Get Customers with recent life events
+      description: Get Customers with recent life events
+      operationId: get_customers_with_recent_life_events
       responses:
         '200':
           description: Customer life events
@@ -21,32 +21,6 @@ paths:
             application/json:
               schema:
                 $ref: '#/components/schemas/Customers'
-        '422':
-          description: Validation Error
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-      security:
-        - HTTPBasic: []
-  /v1/generate:
-    post:
-      summary: Content generation
-      description: Content generation
-      operationId: generate
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/LLM_Request'
-        required: true
-      responses:
-        '200':
-          description: Successful Response
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/LLM_Response'
         '422':
           description: Validation Error
           content:
@@ -97,6 +71,7 @@ components:
         totalSize:
           type: integer
           title: Totalsize
+          x-ibm-show: false
         records:
           items:
             $ref: '#/components/schemas/Customer'
@@ -116,50 +91,6 @@ components:
           title: Detail
       type: object
       title: HTTPValidationError
-    LLM_Request:
-      properties:
-        prompt:
-          type: string
-          title: Prompt
-          x-ibm-multiline: 'true'
-        model_id:
-          type: string
-          title: Model Id
-        max_new_tokens:
-          type: integer
-          title: Max New Tokens
-        min_new_tokens:
-          type: integer
-          title: Min New Tokens
-        decoding_method:
-          type: string
-          title: Decoding Method
-      type: object
-      required:
-        - prompt
-        - model_id
-        - max_new_tokens
-        - min_new_tokens
-        - decoding_method
-      title: LLM_Request
-    LLM_Response:
-      properties:
-        message:
-          type: string
-          title: Message
-      type: object
-      required:
-        - message
-      title: LLM_Response
-    Message:
-      properties:
-        message:
-          type: string
-          title: Message
-      type: object
-      required:
-        - message
-      title: Message
     ValidationError:
       properties:
         loc:

@@ -1,10 +1,9 @@
 ---
 title: Managing and securing enterprise content at scale <br/>Technical Sales Level 3 demo
 layout: preparation
-banner: images/WIP.jpg
+banner: images/Prep-banner.png
 ---
-<inline-notification text="The environments required to operate this demonstration are no longer available. We are working on migrating this demonstration to a new environment as soon as possible. Thank you for your understanding."></inline-notification> 
----
+
 
 <span id="top"></span>
 
@@ -15,9 +14,9 @@ banner: images/WIP.jpg
 | **Demo capabilities** | Content management |
 | **Demo intro slides** | Download the Introduction and Overview slides <a href="./files/Managing and Securing Enterprise Content at Scale Platinum Demo - Intro deck.pptx" target="_blank" rel="noreferrer">here</a>. This is a short deck of customer-facing slides that sets the context for the demo. |
 | **Demo script** | A complete demo script is on the second tab above. You can download a printer-ready PDF of the demo script <a href="./files/Managing and Securing Enterprise Content at Scale Platinum Demo - PDF script.pdf" target="_blank" rel="noreferrer">here</a>. <br/> This demo script has multiple tasks, that each have multiple steps. In each step, you have the details about what you need to do (**Actions**), what you can say while delivering this demo step (**Narration**), and what diagrams and screenshots you will see. <br/> This demo script is a suggestion, and you are welcome to customize based on your sales opportunity. Most importantly, practice this demo in advance. If the demo seems easy for you to execute, the customer will focus on the content. If it seems difficult for you to execute, the customer will focus on your delivery. |
-| **Demo downloads** | • <a href="./files/Demo-Installer-23-0-1.zip" target="_blank" rel="noreferrer">Demo installer archive</a><br/> • <a href="./files/Resource files.zip" target="_blank" rel="noreferrer">Resource files.zip</a><br/> • <a href="./files/P8TeamspaceTemplates.templates" target="_blank" rel="noreferrer">P8TeamspaceTemplates</a> <br/> |
+| **Demo downloads** | • <a href="./files/Demo-Installer-23-0-2.zip" target="_blank" rel="noreferrer">Demo installer archive</a><br/> • <a href="./files/Resource files.zip" target="_blank" rel="noreferrer">Resource files.zip</a><br/> • <a href="./files/P8TeamspaceTemplates.templates" target="_blank" rel="noreferrer">P8TeamspaceTemplates</a> <br/> |
 | **Sales enablement video** | View the enablement video <a href="https://ibm.box.com/s/3y8p1y32ap5tpln6nb6iakncs44ip0xc" target="_blank" rel="noreferrer">here</a>. This video is for enablement purposes only (IBMers and Business Partners) and is not customer-ready. |
-| **Required versions** | Cloud Pak for Business Automation V23.0.1 <br/> Other version: [Cloud Pak for Business Automation V22.0.2](/300-business-automation-managing-and-securing-enterprise-content-at-scale/v22.0.2) |
+| **Required versions** | Cloud Pak for Business Automation V23.0.2 <br/> |
 | **How to get support** | • Open a support case at <a href="https://techzone.ibm.com/help" target="_blank" rel="noreferrer">IBM Technology Zone Help</a> regarding issues with reserving and provisioning Tech Zone environments.<br/>• IBMers, contact <a href="https://ibm.enterprise.slack.com/archives/C06HT5PHLN9" target="_blank" rel="noreferrer">#ba-techlcd-support</a>  regarding issues with setting up and running this demo. |
 
 ## **DEMO INSTALLATION AND SETUP**
@@ -25,18 +24,31 @@ banner: images/WIP.jpg
 <span id="importFlow"></span>
 <details markdown="1">
 
-<summary>1 - Provision an OpenShift environment and deploy Cloud Pak for Business Automation</summary><br/>
+<summary>1 - Provision Cloud Pak for Business Automation environment</summary><br/>
 
-To run this demonstration, you will need an OpenShift environment with Cloud Pak for Business Automation 23.0.1 installed. 
+To run this demonstration, you will need an OpenShift environment with Cloud Pak
+for Business Automation 23.0.2 installed. We will use IBM Operational Decision
+Manager on prem version contained in this installation. <br/> <inline-notification text="Note: If you want to use your ODM hosted on a SaaS tenant, just contact your SaaS administrator to get a user and password to connect your RES in Basic Authentication. Go directly to Step 3: Download the installation files."></inline-notification>
 
-You have two options to get your Cloud Pak for Business Automation 23.0.1 environment.
+1. Visit the <a href="https://techzone.ibm.com/collection/tech-zone-certified-base-images/journey-pre-installed-software" target="_blank" rel="noreferrer">TechZone environment provisioning</a> page. (cut/paste this link if the link does not work : https://techzone.ibm.com/collection/tech-zone-certified-base-images/journey-pre-installed-software)  <br/><br/>
 
-| DESCRIPTION | OPPORTUNITY NUMBER REQUIRED? | CP4BA INSTALL TYPE | GOOD FOR... | LINK |
-| :---         | :--- | :--- | :--- | :--- |
-| **Automatically installed Pak Installer CP4BA cluster** | NO (allows Practice / Self-Education) | Automated by ITZ and DAFFY | Users who don't need to build skills in CP4BA install. | <a href="./files/Using PakInstaller pre-configured VMWare image.pdf" target="_blank" rel="noreferrer">Pak Installer guide</a> |
-| **Self-installed ITZ OpenShift cluster** | NO (allows Practice / Self-Education) | Manual with step-by-step instructions | Users who have skills in CP4BA install, want more control over the cluster's deployment, already have or wish to build familiarity with ITZ IPI/UPI clusters or want to use the latest **CP4BA IFix version**. |  <a href="./files/Installing-CP4BA-23-0-1-on-a-TechZone-OpenShift-VMware-image.pdf" target="_blank" rel="noreferrer">CP4BA Deployment guide</a> |
+2. Click the **CP4BA 23.0.x - Multi-Pattern Starter** tile. <br/> <img src="images/Prep-1-2-2.png" width="800" /><br/>
 
-<br/>
+3. Select **Reserve now** tile. <br/> <img src="images/Prep-1-2-3.png" width="800" /><br/>
+
+4. Select **Practice / Self-Education** <br/> <img src="images/Prep-1-2-4.png" width="800" /><br/>
+
+5. Enter a **Purpose description** <br/> <img src="images/Prep-1-2-5.png" width="800" /><br/>
+
+6. Select your **Preferred Geography** <br/> <img src="images/Prep-1-2-6.png" width="800" /><br/>
+
+7. Select  **'5''** as **'Worker Node Couunt'**<br/> <img src="images/Prep-1-2-7.png" width="800" /><br/>
+
+8. Select **’16 vCPU x 64GB – 100GB ephemeral storage’** as the **Starter service** (1) in the **Worker Node Flavor** <br/> <img src="images/Prep-1-2-8.png" width="800" /><br/>
+
+9. Read and agree to **IBM Technology Zone's Terms and Conditions and End User Security Policies** (1). Click **Submit** (2). <br/> <img src="images/Prep-1-2-9.png" width="800" /><br/>
+
+10. Check that the request was correctly submitted, and wait for the confirmation emails. <br/> <img src="images/Prep-1-2-10.png" width="800" /><br/>
 
 **[Go to top](#top)**
 
@@ -46,36 +58,35 @@ You have two options to get your Cloud Pak for Business Automation 23.0.1 enviro
 <details markdown="1">
 
 <summary>2 - Validate your environment</summary><br/>
+After 4-5 hours, your Cloud Pak for Business Automation (CP4BA) should be ready. After requesting your CP4BA, you will receive a series of emails from IBM Technology Zone regarding the progress of your request.
 
-After 5-6 hours, your Cloud Pak for Business Automation environment should be ready. 
+1. Check for an email with the subject **Reservation Ready on IBM Technology Zone** (1). Click **View My Reservations** (2) <br/> <img src="images/Prep-2-1-1.png" width="800" /><br/>
 
-The setup is completed when the CP4BA access information config map is created with the URL and credentials to log into the various installed components. 
+2. Copy paste your **Kubeadmin / Passwords** in your notebook <br/> <img src="images/Prep-2-1-2.png" width="800" /><br/>
 
-1. Log in to your OpenShift console using the credentials provided in your environment tile on TechZone. Go in **My reservations** in TechZone. <br/><inline-notification text="If you have used the Pak Installer, click the Pak Installer Portal URL link. Then, go to the **OpenShift Console** tab to get the URL and credentials to access the console."></inline-notification><br/><img src="./images/Pak-Installer-Portal.png" width="800" /><br/>
+3. Click your reservation tile. <br/> <img src="images/Prep-2-1-3.png" width="800" /><br/> <inline-notification text="Your reservation status should be <strong>Ready</strong>"></inline-notification> 
 
-2. Expand the **Workloads** (1) and click **ConfigMaps** (2). 
-<br/><img src="./images/prep-click-configmaps.png" width="800" /><br/>
+4. Click the **Open your IBM Cloud environment**. <br/> <img src="images/Prep-2-1-4.png" width="800" /><br/>
 
-3. Expand the **projects** menu (1) and click **cp4ba-starter** (2).
-<br/><img src="./images/prep-click-4ba-starter.png" width="800" /><br/>
+1. Log in to your OpenShift console using the credentials provided during section 1 above.<br/><br/>
 
-4. Type '**access**' (1). Check that the **icp4adeploy-cp4ba-access-info** config map is present.
-<br/><img src="./images/prep-configmap-displays.png" width="800" /><br/>
+6. Expand the **Workloads** (1) and click **ConfigMaps** (2). <img src="images/Prep-2-6.png" width="800" /><br/>
 
-<inline-notification text="If the file is not listed, wait five more minutes for the CP4BA deployment to be completed."></inline-notification>
+7. Expand the **projects** menu (1) and click **cp4ba-starter** (2).<img src="images/Prep-2-7.png" width="800" /><br/>
 
-<br/>
+8. Type '**access**' (1). Check that the **icp4adeploy-cp4ba-access-info** config map is present. <img src="images/Prep-2-8.png" width="800" /><inline-notification text="If the file is not listed, wait five more minutes for the CP4BA deployment to be completed"></inline-notification>
 
-5. Click **icp4adeploy-cp4ba-access-info**. 
-<br/><img src="./images/prep-click-deploy.png" width="800" /><br/>
+9. Click **icp4adeploy-cp4ba-access-info**. <img src="images/Prep-2-9.png" width="800" /><br/>
 
-6. Scroll down (1) and check that all the ADS access information is displayed. ADS is the last element to install, so your CP4BA setup is completed once this info displays. 
-<br/><img src="./images/prep-ads-access-info.png" width="800" /><br/>
+10. Scroll down (1) and check that all the ADS access information is displayed. ADS is the last element to install, so your CP4BA setup is completed once this info displays. <br/><img src="images/Prep-2-10.png" width="800" /><br/>
+
+11. Copy the **CP4admin username** and **password** used to log in to the various CP4BA components into a note to access later. <img src="images/Prep-2-11.png" width="800" /><br/>
+
+12. Copy the **URL** needed to access the various products required in this demonstration into a note to access later.<img src="images/Prep-2-12.png" width="800" /><br/>
 
 **[Go to top](#top)**
 
 </details>
-
 <span id="importFlow"></span>
 <details markdown="1">
 
@@ -132,7 +143,7 @@ This automated configuration script uses the FNCM and CP4BA public APIs to:<br/>
 
 1. Ensure you have Java 8 or later installed on your computer. Find your Java version by opening a Terminal window, typing the command "**java -version**" (1), and hitting enter. The **version** displays (2).<br/><img src="./images/Prep361.png" width="800" /><br/>If you do not have Java, download it from these locations:<br/>• IBMers with MacOS, use the <a href="https://w3.ibm.com/mac/" target="_blank" rel="noreferrer">Mac@IBM store</a>.<br/> • IBMers with PCs, use the <a href="https://w3.ibm.com/download/standardsoftware/PC/lang_en/issiCatalogPC.html" target="_blank" rel="noreferrer">PC@IBM store</a>.<br/> • Business Partners, use the <a href="https://www.oracle.com/java/technologies/downloads/" target="_blank" rel="noreferrer">Java downloads site</a> (or as directed by your internal IT department).<br/>
 
-2. Download and unzip the <a href="./files/Demo-Installer-23-0-1.zip" target="_blank" rel="noreferrer">demo installer archive</a><br/> on a local folder of your computer.<br/>
+2. Download and unzip the <a href="./files/Demo-Installer-23-0-2.zip" target="_blank" rel="noreferrer">demo installer archive</a><br/> on a local folder of your computer.<br/>
 
 3. Use a Terminal Shell window to navigate to the folder where the archive was unzipped:<br/><img src="./images/Prep362.png" width="800" /><br/>
 

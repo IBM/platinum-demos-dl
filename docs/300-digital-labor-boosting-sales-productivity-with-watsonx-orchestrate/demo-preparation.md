@@ -12,6 +12,7 @@ banner: images/Prep-banner.png
 
 | **DEMO OVERVIEW** | | 
 | :---         | :--- |
+| **Demo sunset** | **This version of the demo is being sunset.** Please use the [latest version of this demo](../l3-tech-sales-boosting-sales-productivity-with-watsonx-orchestrate/demo-preparation).|
 | **Scenario overview** | This demo shows how watsonx Orchestrate can be used by sales representatives to assist with the upsell / cross-sell process. To illustrate this, an insurance seller uses watsonx Orchestrate to retrieve a list of customers from Salesforce and automatically send a customized offer. Developers, called ‘builders’ in watsonx Orchestrate, create the customized skills used by the agents. |
 | **Demo products** | watsonx Orchestrate |
 | **Demo capabilities** | Salesforce skill; watsonx.ai generative AI skill; Microsoft Outlook skill; Embedded decision engine skill|
@@ -67,7 +68,7 @@ Once you have received your onboarding email, use your IBM ID to log in <a href=
 
 5. Click **Add skill +** (1). Click **Connect app** (2). <br/> <img src="images/Prep-1-5.jpg" width="800" /><br/>
 
-6. Use the your salesforce credentials:  • **Client ID** (1)• **Client Secret** (2) Click **Connect app** (3). <br/> <inline-notification text="Request your Salesforce credentials contacting the <strong>#ba-techlcd-support</strong> slack channel"></inline-notification><img src="images/Prep-1-6.jpg" width="800" /><br/>
+6. Use the your salesforce credentials:  • **Client ID** (1)• **Client Secret** (2) Click **Connect app** (3). <br/> <inline-notification text="Request your Salesforce credentials contacting the <strong>#ba-techlcd-support</strong> slack channel"></inline-notification><img src="images/Prep-1-6.jpg" width="800" /><br/> <inline-notification text="If your environment fails to connect the app, <strong>clear your browser cash</strong> first and try to connect your app from an <strong>incognito</strong> window."></inline-notification>
 
 7. Click the **menu slider** icon. <br/> <img src="images/Prep-1-7.jpg" width="500" /><br/>
 
