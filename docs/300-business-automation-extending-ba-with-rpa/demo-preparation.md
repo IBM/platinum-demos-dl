@@ -41,7 +41,7 @@ For **IBMers**, refer to the RPA contact person to establish your RPA account in
 | Business Partners | Burt Hughes | See instructions below. |
 | Americas | Ryan Sparks | rmsparks@us.ibm.com |
 | EMEA | Jukka Juselius | jukka.juselius@fi.ibm.com |
-| AP | Jenny Khuc Mai Thuong | khuc@sg.ibm.com |
+| AP | Boon Tee Tan | tanbt@sg.ibm.com |
 
 
 For **Business Partners**, request your own RPA Server SaaS tenant for your organization. To submit a request for an IBM server SaaS tenant, provide the following: <br/><br/>
