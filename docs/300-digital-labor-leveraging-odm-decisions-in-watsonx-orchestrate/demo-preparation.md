@@ -11,7 +11,7 @@ banner: images/Prep-banner.png
 | **DEMO OVERVIEW** | | 
 | :---         | :--- |
 | **Scenario overview** | In this demo, we will see how watsonx Orchestrate can leverage Operational Decision Manager’s deployed services to create new skills. To illustrate this, we will use a company’s customer service application. |
-| **Demo products** | IBM Operational Decision Manager (included in Cloud Pak for Business Automation V23.0.2). V24.0.0 evailable but not tested with this demo, watsonx Orchestrate |
+| **Demo products** | IBM Operational Decision Manager (included in Cloud Pak for Business Automation V23.0.2). V24.0.0 available but not tested with this demo, watsonx Orchestrate |
 | **Demo capabilities** | Decision management; Digital assistant |
 | **Sales guidance** | <a href="./files/wxO_ODM demo sales guidance .pdf" target="_blank" rel="noreferrer">wxO_ODM demo sales guidance .pdf</a> |
 | **Demo intro slides** | <a href="./files/wxO_ODM Platinum Demo - Intro deck.pptx" target="_blank" rel="noreferrer">wxO_ODM Platinum Demo - Intro deck.pptx</a> |
